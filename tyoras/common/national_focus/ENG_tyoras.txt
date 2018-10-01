@@ -11,7 +11,7 @@ tag = ENG
 focus = { 
 id = ENG_reinforcingthetheocracy
 icon = GFX_goal_tfv_strengthen_commonwealth_ties
-x = 26
+x = 16
 y = 3
 cost = 10
 available_if_capitulated = yes 
@@ -20,7 +20,7 @@ ai_will_do = {
  factor = 1
  } 
 completion_reward = { 
-add_national_unity = 0.8 = 0.02
+set_national_unity = 0.95
  } 
 
  } 
@@ -29,22 +29,24 @@ add_national_unity = 0.8 = 0.02
 focus = { 
 id = ENG_cooperativeapproach
 icon = GFX_focus_renounce_the_treaty_of_trianon
-x = 31
+x = 20
 y = 3
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = ENG_thestate } 
+mutually_exclusive = { focus = ENG_englishascendancy } 
+mutually_exclusive = { focus = ENG_englishascendancy } 
 ai_will_do = { 
  factor = 1
  } 
 
  } 
 
-#Focus for The New Christian Race
+#Focus for New Christian Race
 focus = { 
-id = ENG_thenewchristianrace
+id = ENG_newchristianrace
 icon = GFX_focus_YUG_pan_slavic_congress
-x = 24
+x = 14
 y = 4
 cost = 10
 available_if_capitulated = yes 
@@ -59,7 +61,7 @@ ai_will_do = {
 focus = { 
 id = ENG_globalisationfocus
 icon = GFX_goal_generic_intelligence_exchange
-x = 30
+x = 20
 y = 4
 cost = 10
 available_if_capitulated = yes 
@@ -74,7 +76,7 @@ ai_will_do = {
 focus = { 
 id = ENG_ghentagreement
 icon = GFX_goal_generic_improve_relations
-x = 30
+x = 20
 y = 5
 cost = 10
 available_if_capitulated = yes 
@@ -89,7 +91,7 @@ ai_will_do = {
 focus = { 
 id = ENG_capitalistreform
 icon = GFX_goal_generic_construct_civ_factory
-x = 29
+x = 18
 y = 6
 cost = 10
 available_if_capitulated = yes 
@@ -104,11 +106,11 @@ ai_will_do = {
 focus = { 
 id = ENG_stateindustry
 icon = GFX_goal_generic_political_pressure
-x = 31
+x = 23
 y = 6
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = ENG_ghentagreement } 
+prerequisite = { focus = ENG_ghentagreement focus = ENG_icelandpurchase } 
 ai_will_do = { 
  factor = 1
  } 
@@ -119,16 +121,17 @@ ai_will_do = {
 focus = { 
 id = ENG_theunion
 icon = GFX_focus_generic_home_defense
-x = 20
+x = 12
 y = 2
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = ENG_englandsfuture } 
+prerequisite = { focus = ENG_englandsfocus } 
 mutually_exclusive = { focus = ENG_thechurch } 
 mutually_exclusive = { focus = ENG_thestate } 
 mutually_exclusive = { focus = ENG_ } 
 mutually_exclusive = { focus = ENG_thechurch } 
 mutually_exclusive = { focus = ENG_thestate } 
+mutually_exclusive = { focus = ENG_thechurch } 
 ai_will_do = { 
  factor = 1
  } 
@@ -139,7 +142,7 @@ ai_will_do = {
 focus = { 
 id = ENG_formnewgovernment
 icon = GFX_goal_generic_improve_relations
-x = 26
+x = 16
 y = 0
 cost = 10
 available_if_capitulated = yes 
@@ -153,14 +156,15 @@ ai_will_do = {
 focus = { 
 id = ENG_thestate
 icon = GFX_focus_ger_revive_kaiserreich
-x = 32
+x = 20
 y = 2
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = ENG_englandsfuture } 
+prerequisite = { focus = ENG_englandsfocus } 
 mutually_exclusive = { focus = ENG_thechurch } 
 mutually_exclusive = { focus = ENG_theunion } 
 mutually_exclusive = { focus = ENG_ } 
+mutually_exclusive = { focus = ENG_thechurch } 
 ai_will_do = { 
  factor = 1
  } 
@@ -171,11 +175,11 @@ ai_will_do = {
 focus = { 
 id = ENG_thechurch
 icon = GFX_focus_YUG_banovina_of_croatia
-x = 26
+x = 16
 y = 2
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = ENG_englandsfuture } 
+prerequisite = { focus = ENG_englandsfocus } 
 mutually_exclusive = { focus = ENG_theunion } 
 mutually_exclusive = { focus = ENG_thestate } 
 mutually_exclusive = { focus = ENG_ } 
@@ -186,11 +190,11 @@ ai_will_do = {
 
  } 
 
-#Focus for England's Future
+#Focus for England's Focus
 focus = { 
-id = ENG_englandsfuture
+id = ENG_englandsfocus
 icon = GFX_focus_AST_never_gallipoli
-x = 26
+x = 16
 y = 1
 cost = 10
 available_if_capitulated = yes 
@@ -205,8 +209,8 @@ ai_will_do = {
 focus = { 
 id = ENG_heavenonearth
 icon = GFX_goal_generic_occupy_states_ongoing_war
-x = 24
-y = 5
+x = 14
+y = 9
 cost = 10
 available_if_capitulated = yes 
 ai_will_do = { 
@@ -215,11 +219,11 @@ ai_will_do = {
 
  } 
 
-#Focus for Church Secret Police
+#Focus for English Inquisition
 focus = { 
-id = ENG_churchsecretpolice
+id = ENG_englishinquisition
 icon = GFX_goal_generic_secret_weapon
-x = 26
+x = 16
 y = 4
 cost = 10
 available_if_capitulated = yes 
@@ -234,11 +238,12 @@ ai_will_do = {
 focus = { 
 id = ENG_englishascendancy
 icon = GFX_focus_ger_accept_british_naval_dominance
-x = 37
+x = 24
 y = 3
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = ENG_thestate } 
+mutually_exclusive = { focus = ENG_cooperativeapproach } 
 ai_will_do = { 
  factor = 1
  } 
@@ -249,7 +254,7 @@ ai_will_do = {
 focus = { 
 id = ENG_expansiveuniondiplomacy
 icon = GFX_goal_generic_intelligence_exchange
-x = 19
+x = 11
 y = 3
 cost = 10
 available_if_capitulated = yes 
@@ -264,11 +269,11 @@ ai_will_do = {
 focus = { 
 id = ENG_diplomaticvisittoparis
 icon = GFX_goal_generic_intelligence_exchange
-x = 18
-y = 4
+x = 2
+y = 6
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = ENG_expansiveuniondiplomacy } 
+prerequisite = { focus = ENG_westerneuropeanfocus } 
 ai_will_do = { 
  factor = 1
  } 
@@ -279,11 +284,320 @@ ai_will_do = {
 focus = { 
 id = ENG_diplomaticvisittobrussels
 icon = GFX_goal_generic_intelligence_exchange
-x = 20
+x = 0
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_westerneuropeanfocus } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Guilford Laws
+focus = { 
+id = ENG_theguilfordlaws
+icon = GFX_goal_generic_forceful_treaty
+x = 14
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_muslimboycott } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Western European Focus
+focus = { 
+id = ENG_westerneuropeanfocus
+icon = GFX_focus_chi_reach_out_to_france
+x = 2
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_indiscriminaterecruitmentdoctrine focus = ENG_religiousuniondoctrine } 
+mutually_exclusive = { focus = ENG_yingzoucontinentfocus } 
+mutually_exclusive = { focus = ENG_centraleuropeanfocus } 
+mutually_exclusive = { focus = ENG_ } 
+mutually_exclusive = { focus = ENG_yingzoucontinentfocus } 
+mutually_exclusive = { focus = ENG_yingzoucontinentfocus } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Muslim Boycott
+focus = { 
+id = ENG_muslimboycott
+icon = GFX_goal_generic_propaganda
+x = 14
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_newchristianrace } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Central European Focus
+focus = { 
+id = ENG_centraleuropeanfocus
+icon = GFX_focus_chi_mission_to_germany
+x = 6
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_indiscriminaterecruitmentdoctrine focus = ENG_religiousuniondoctrine } 
+mutually_exclusive = { focus = ENG_westerneuropeanfocus } 
+mutually_exclusive = { focus = ENG_yingzoucontinentfocus } 
+mutually_exclusive = { focus = ENG_ } 
+mutually_exclusive = { focus = ENG_westerneuropeanfocus } 
+mutually_exclusive = { focus = ENG_yingzoucontinentfocus } 
+mutually_exclusive = { focus = ENG_westerneuropeanfocus } 
+mutually_exclusive = { focus = ENG_yingzoucontinentfocus } 
+mutually_exclusive = { focus = ENG_yingzoucontinentfocus } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Religious Union Doctrine
+focus = { 
+id = ENG_religiousuniondoctrine
+icon = GFX_goal_generic_major_alliance
+x = 4
 y = 4
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = ENG_expansiveuniondiplomacy } 
+mutually_exclusive = { focus = ENG_indiscriminaterecruitmentdoctrine } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Indiscriminate Recruitment Doctrine
+focus = { 
+id = ENG_indiscriminaterecruitmentdoctrine
+icon = GFX_goal_generic_improve_relations
+x = 8
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_expansiveuniondiplomacy } 
+mutually_exclusive = { focus = ENG_religiousuniondoctrine } 
+mutually_exclusive = { focus = ENG_religiousuniondoctrine } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Yingzou Continent Focus
+focus = { 
+id = ENG_yingzoucontinentfocus
+icon = GFX_focus_chi_mission_to_the_us
+x = 10
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_religiousuniondoctrine focus = ENG_indiscriminaterecruitmentdoctrine } 
+mutually_exclusive = { focus = ENG_centraleuropeanfocus } 
+mutually_exclusive = { focus = ENG_westerneuropeanfocus } 
+mutually_exclusive = { focus = ENG_ } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Force Newfoundland's Hand
+focus = { 
+id = ENG_forcenewfoundlandshand
+icon = GFX_focus_generic_treaty
+x = 10
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_yingzoucontinentfocus } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Diplomatic Visit to Treyakobau
+focus = { 
+id = ENG_diplomaticvisittotreyakobau
+icon = GFX_goal_generic_intelligence_exchange
+x = 10
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_forcenewfoundlandshand } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Yingzou Trade Infrastructure
+focus = { 
+id = ENG_yingzoutradeinfrastructure
+icon = GFX_goal_generic_construct_infrastructure
+x = 11
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_onediaagreement } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Onedia Agreement
+focus = { 
+id = ENG_onediaagreement
+icon = GFX_goal_generic_improve_relations
+x = 11
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_diplomaticvisittotreyakobau } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Down Trodden
+focus = { 
+id = ENG_thedowntrodden
+icon = GFX_goal_tripartite_pact
+x = 9
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_diplomaticvisittotreyakobau } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Consolidating Gains
+focus = { 
+id = ENG_consolidatinggains
+icon = GFX_goal_generic_national_unity
+x = 27
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_icelandpurchase } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Scottish Integration
+focus = { 
+id = ENG_scottishintegration
+icon = GFX_goal_tfv_can_compromise_with_quebec
+x = 24
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_englishascendancy } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+annex_country  = {
+ target = GUA 
+}
+ } 
+
+ } 
+
+#Focus for Irish Ultimatum
+focus = { 
+id = ENG_irishultimatum
+icon = GFX_goal_generic_position_armies
+x = 26
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_englishascendancy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Iceland Purchase
+focus = { 
+id = ENG_icelandpurchase
+icon = GFX_goal_generic_intelligence_exchange
+x = 24
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_scandinavianultimatum focus = ENG_irishultimatum focus = ENG_scottishintegration } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Scandinavian Ultimatum
+focus = { 
+id = ENG_scandinavianultimatum
+icon = GFX_goal_generic_position_armies
+x = 22
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_englishascendancy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Muslim Relocation Program
+focus = { 
+id = ENG_muslimrelocationprogram
+icon = GFX_focus_NZL_bob_semple_tank
+x = 14
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_theguilfordlaws } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Diplomatic Visit to Berlin
+focus = { 
+id = ENG_diplomaticvisittoberlin
+icon = GFX_goal_generic_intelligence_exchange
+x = 6
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_centraleuropeanfocus } 
 ai_will_do = { 
  factor = 1
  } 

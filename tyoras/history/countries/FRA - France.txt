@@ -144,19 +144,19 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 69
+			popularity = 30
 		}
 
 		fascism = {
-			popularity = 1
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 30
+			popularity = 70
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -177,7 +177,7 @@ create_country_leader = {
 	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
 	picture = "Paul_Painleve.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = stalinism
 	traits = {
 		
 	}
@@ -188,7 +188,7 @@ create_country_leader = {
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
 	picture = "GFX_portrait_fra_maurice_thorez"
 	expire = "1965.1.1"
-	ideology = 	stalinism
+	ideology = 	conservatism
 	traits = {
 		
 	}

@@ -63,7 +63,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 30
+			popularity = 90
 		}
 
 		fascism = {
@@ -76,22 +76,22 @@ set_politics = {
 		}
 
 		neutrality = {
-			popularity = 70
+			popularity = 10
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1931.2.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Jorge Ubico"
+	name = "David Bruce"
 	desc = "POLITICS_JORGE_UBICO_DESC"
-	picture = "GFX_portrait_guatemala_jorge_ubico"
+	picture = "David_Bruce.tga"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = conservatism
 	traits = {
 		#
 	}
@@ -102,7 +102,7 @@ create_country_leader = {
 
 		parties = {
 			democratic = { 
-				popularity = 30
+				popularity = 90
 			}
 
 			fascism = {
@@ -115,11 +115,11 @@ create_country_leader = {
 			}
 
 			neutrality = {
-				popularity = 70
+				popularity = 10
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = democratic
 		last_election = "1931.2.8"
 		election_frequency = 48
 		elections_allowed = no
