@@ -7,7 +7,7 @@ state=
 	state_category = rural
 	history=
 	{
-		owner = EGY
+		owner = TUR
 		victory_points = {
 			9940 1 
 		}
@@ -22,7 +22,7 @@ state=
 				naval_base = 3
 			}
 		}
-		add_core_of = EGY
+		add_core_of = TUR
 	}
 	provinces=
 	{

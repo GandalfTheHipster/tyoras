@@ -74,8 +74,8 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 118 0 0 }
+	color_ui = rgb { 118 0 0 }
 }
 GRE = {
 	color = rgb { 93 181 227 }
@@ -359,8 +359,8 @@ SYR = {
 }
 
 SER = {
-	color = rgb { 160 110 110 }
-	color_ui = rgb { 160 110 110 }
+	color = rgb { 90 80 110 }
+	color_ui = rgb { 90 80 110 }
 }
 
 ICE = {
@@ -530,4 +530,21 @@ D14 = {
 D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
+}
+
+TRA = {
+	color = rgb { 71 113 97 }
+	color_ui = rgb { 92 147 126 }
+}
+MOL = {
+	color = rgb { 153 61 0 }
+	color_ui = rgb { 153 61 0 }
+}
+WAL = {
+	color = rgb { 30 84 183 }
+	color_ui = rgb { 35 101 222 }
+}
+BOS = {
+	color = rgb { 67 158 34 }
+	color_ui = rgb { 67 158 34 }
 }

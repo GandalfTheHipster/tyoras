@@ -1,12 +1,10 @@
+
 state={
 	id=731
 	name="STATE_731"
-	manpower=1155700
-	
-	state_category = town
 
 	history={
-		owner = ITA
+		owner = TUR
 		victory_points = {
 			11818 5 
 		}
@@ -21,12 +19,14 @@ state={
 			}
 
 		}
-		add_core_of = ITA
-		add_claim_by = ITA
+		add_core_of = TUR
 
 	}
-	
+
 	provinces={
-		895 936 966 3526 3844 3936 10163 11818 
+		841 895 936 966 3526 3844 3936 3980 9837 10163 11818 
 	}
+	manpower=1155700
+	buildings_max_level_factor=1.000
+	state_category=town
 }

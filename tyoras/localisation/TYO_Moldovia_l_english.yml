@@ -1,0 +1,15 @@
+﻿l_english:
+ MOL_fascism:1 "Kingdom of Moldovia"
+ MOL_fascism_DEF:1 "the Kingdom of Moldovia"
+ MOL_democratic:0 "Kingdom of Moldovia"
+ MOL_democratic_DEF:0 "the Kingdom of Moldovia"
+ MOL_neutrality:0 "Kingdom of Moldovia"
+ MOL_neutrality_DEF:0 "The Kingdom of Moldovia"
+ MOL_communism:0 "Kingdom of Moldovia"
+ MOL_communism_DEF:0 "the Kingdom of Moldovia"
+ MOL_fascism_ADJ:0 "Moldovian"
+ MOL_democratic_ADJ:0 "Moldovian"
+ MOL_neutrality_ADJ:0 "Moldovian"
+ MOL_communism_ADJ:0 "Moldovian"
+
+ MOL_TUR_autonomy_puppet:0 "Principality of Moldovia"

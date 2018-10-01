@@ -1,0 +1,13 @@
+﻿l_english:
+ TRA_fascism:1 "Ottoman Empire"
+ TRA_fascism_DEF:1 "the Ottoman Empire"
+ TRA_democratic:0 "Ottoman Empire"
+ TRA_democratic_DEF:0 "the Ottoman Empire"
+ TRA_neutrality:0 "Ottoman Empire"
+ TRA_neutrality_DEF:0 "The Ottoman Empire"
+ TRA_communism:0 "Ottoman Empire"
+ TRA_communism_DEF:0 "the Ottoman Empire"
+ TRA_fascism_ADJ:0 "Ottoman"
+ TRA_democratic_ADJ:0 "Ottoman"
+ TRA_neutrality_ADJ:0 "Ottoman"
+ TRA_communism_ADJ:0 "Ottoman"

@@ -1,0 +1,15 @@
+﻿l_english:
+ WAL_fascism:1 "Kingdom of Wallachia"
+ WAL_fascism_DEF:1 "the Kingdom of Wallachia"
+ WAL_democratic:0 "Kingdom of Wallachia"
+ WAL_democratic_DEF:0 "the Kingdom of Wallachia"
+ WAL_neutrality:0 "Kingdom of Wallachia"
+ WAL_neutrality_DEF:0 "The Kingdom of Wallachia"
+ WAL_communism:0 "Kingdom of Wallachia"
+ WAL_communism_DEF:0 "the Kingdom of Wallachia"
+ WAL_fascism_ADJ:0 "Wallachian"
+ WAL_democratic_ADJ:0 "Wallachian"
+ WAL_neutrality_ADJ:0 "Wallachian"
+ WAL_communism_ADJ:0 "Wallachian"
+
+ WAL_TUR_autonomy_puppet:0 "Principality of Wallachia"

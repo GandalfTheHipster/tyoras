@@ -7,12 +7,12 @@ state={
 	
 	history=
 	{
-		owner = ITA
+		owner = MOL
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 		}
-		add_core_of = ITA
+		add_core_of = MOL
 	}
 	provinces={
 		577 9548
