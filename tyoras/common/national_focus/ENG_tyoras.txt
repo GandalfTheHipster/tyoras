@@ -1,0 +1,294 @@
+focus_tree = { 
+id = tyoras
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = ENG 
+} 
+} 
+#Focus for Reinforcing the Theocracy
+focus = { 
+id = ENG_reinforcingthetheocracy
+icon = GFX_goal_tfv_strengthen_commonwealth_ties
+x = 26
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_thechurch } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_national_unity = 0.8 = 0.02
+ } 
+
+ } 
+
+#Focus for Cooperative Approach
+focus = { 
+id = ENG_cooperativeapproach
+icon = GFX_focus_renounce_the_treaty_of_trianon
+x = 31
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_thestate } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The New Christian Race
+focus = { 
+id = ENG_thenewchristianrace
+icon = GFX_focus_YUG_pan_slavic_congress
+x = 24
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_reinforcingthetheocracy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Globalisation Focus
+focus = { 
+id = ENG_globalisationfocus
+icon = GFX_goal_generic_intelligence_exchange
+x = 30
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_cooperativeapproach } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Ghent Agreement
+focus = { 
+id = ENG_ghentagreement
+icon = GFX_goal_generic_improve_relations
+x = 30
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_globalisationfocus } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Capitalist Reform
+focus = { 
+id = ENG_capitalistreform
+icon = GFX_goal_generic_construct_civ_factory
+x = 29
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_ghentagreement } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for State Industry
+focus = { 
+id = ENG_stateindustry
+icon = GFX_goal_generic_political_pressure
+x = 31
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_ghentagreement } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Union
+focus = { 
+id = ENG_theunion
+icon = GFX_focus_generic_home_defense
+x = 20
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_englandsfuture } 
+mutually_exclusive = { focus = ENG_thechurch } 
+mutually_exclusive = { focus = ENG_thestate } 
+mutually_exclusive = { focus = ENG_ } 
+mutually_exclusive = { focus = ENG_thechurch } 
+mutually_exclusive = { focus = ENG_thestate } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Form New Government
+focus = { 
+id = ENG_formnewgovernment
+icon = GFX_goal_generic_improve_relations
+x = 26
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The State
+focus = { 
+id = ENG_thestate
+icon = GFX_focus_ger_revive_kaiserreich
+x = 32
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_englandsfuture } 
+mutually_exclusive = { focus = ENG_thechurch } 
+mutually_exclusive = { focus = ENG_theunion } 
+mutually_exclusive = { focus = ENG_ } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Church
+focus = { 
+id = ENG_thechurch
+icon = GFX_focus_YUG_banovina_of_croatia
+x = 26
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_englandsfuture } 
+mutually_exclusive = { focus = ENG_theunion } 
+mutually_exclusive = { focus = ENG_thestate } 
+mutually_exclusive = { focus = ENG_ } 
+mutually_exclusive = { focus = ENG_thestate } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for England's Future
+focus = { 
+id = ENG_englandsfuture
+icon = GFX_focus_AST_never_gallipoli
+x = 26
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_formnewgovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Heaven on Earth
+focus = { 
+id = ENG_heavenonearth
+icon = GFX_goal_generic_occupy_states_ongoing_war
+x = 24
+y = 5
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Church Secret Police
+focus = { 
+id = ENG_churchsecretpolice
+icon = GFX_goal_generic_secret_weapon
+x = 26
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_reinforcingthetheocracy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for English Ascendancy
+focus = { 
+id = ENG_englishascendancy
+icon = GFX_focus_ger_accept_british_naval_dominance
+x = 37
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_thestate } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expansive Union Diplomacy
+focus = { 
+id = ENG_expansiveuniondiplomacy
+icon = GFX_goal_generic_intelligence_exchange
+x = 19
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_theunion } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Diplomatic Visit to Paris
+focus = { 
+id = ENG_diplomaticvisittoparis
+icon = GFX_goal_generic_intelligence_exchange
+x = 18
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_expansiveuniondiplomacy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Diplomatic Visit to Brussels
+focus = { 
+id = ENG_diplomaticvisittobrussels
+icon = GFX_goal_generic_intelligence_exchange
+x = 20
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_expansiveuniondiplomacy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }
