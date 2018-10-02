@@ -171,9 +171,9 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Benito Mussolini"
+	name = "Andrea Checchi"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "musollini.tga"
+	picture = "Andrea_Checchi.tga"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
