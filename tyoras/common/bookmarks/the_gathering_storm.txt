@@ -4,103 +4,77 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "CHI"
 		default = yes
 		
 		"CHI"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
+
 			}
 			focuses = {
-				FRA_initiate_government_reform
-				FRA_support_status_quo
-				FRA_revise_versailles
+
 			}
 		}
 		"SOV"={
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-				home_of_the_free
-				great_depression
-				undisturbed_isolation
+
 			}
 			focuses = {
-				USA_war_plan_black
-				USA_strike_at_the_empire
-				USA_pearl_harbor_gambit
+
 			}
 		}
 		"SAU"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				george_v
+
 			}
 			focuses = {
-				tizard_mission_focus
-				ENG_war_with_germany
-				ENG_war_with_italy
+
 			}
 		}
 		"RAJ"={
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_1
+
 			}
 			focuses = {
-				GER_anschluss
-				GER_danzig_or_war
-				GER_revive_the_kaiserreich
+
 			}
 		}
 		"FRA"={
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
+
 			}	
 			focuses = {
-				ITA_pact_of_steel
-				ITA_spanish_italian_faction
-				ITA_italy_first
+
 			}		
 		}
 		"USA"={
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
-				state_shintoism
-				JAP_zaibatsus
-				JAP_militarism
+
 			}	
 			focuses = {
-				JAP_the_zero
-				JAP_warrior_spirit
-				JAP_strike_on_the_southern_resource_area
+
 			}			
 		}
 		"ENG"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				trotskyite_plot
-				home_of_revolution
+
 			}
 			focuses = {
-				SOV_great_purge
-				SOV_claims_on_baltic
-				SOV_war_with_uk
+
 			}	
 		}
 

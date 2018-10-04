@@ -82,46 +82,47 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 97
+			popularity = 37
 		}
 
 		fascism = {
-			popularity = 1
+			popularity = 63
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1935.10.22"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 1939.1.1 = {
-	set_politics = {
+	
+set_politics = {
 
-		parties = {
-			democratic = { 
-				popularity = 97
-			}
+	parties = {
+		democratic = { 
+			popularity = 37
+		}
 
-			fascism = {
-				popularity = 1
-			}
-			
-			communism = {
-				popularity = 2
-			}
+		fascism = {
+			popularity = 63
 		}
 		
-		ruling_party = democratic
-		last_election = "1939.4.3"
-		election_frequency = 48
-		elections_allowed = yes
+		communism = {
+			popularity = 0
+		}
 	}
+	
+	ruling_party = fascism
+	last_election = "1935.10.22"
+	election_frequency = 48
+	elections_allowed = no
+}
 }
 
 set_convoys = 40

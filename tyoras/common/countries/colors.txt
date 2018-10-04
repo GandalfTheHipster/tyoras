@@ -1,7 +1,7 @@
 #reload countrycolors
 
 GER = {
-	color = rgb { 123 63 0}
+	color = rgb { 0 0 0 }
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
@@ -38,7 +38,7 @@ POL = {
 	color_ui = rgb { 255 120 138 }
 }
 AUS = {
-	color = rgb { 172 122 88 }
+	color = rgb { 255 255 255 }
 	color_ui = rgb { 74 147 255 }
 }
 LIT = {
@@ -533,18 +533,18 @@ D15 = {
 }
 
 TRA = {
-    color = rgb { 118 0 0 }
+    color = rgb { 1 135 80 }
 	color_ui = rgb { 118 0 0 }
 }
 MOL = {
-    color = rgb { 118 0 0 }
+    color = rgb { 255 210 0 }
 	color_ui = rgb { 118 0 0 }
 }
 WAL = {
-    color = rgb { 118 0 0 }
+    color = rgb { 204 2 4 }
 	color_ui = rgb { 118 0 0 }
 }
 BOS = {
-    color = rgb { 118 0 0 }
+    color = rgb { 45 17 117}
 	color_ui = rgb { 118 0 0 }
 }

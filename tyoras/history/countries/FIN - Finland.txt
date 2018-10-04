@@ -89,53 +89,54 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 10
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 10
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 97
 		}
 
 		neutrality = {
-			popularity = 79
+			popularity = 3
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1933.7.1"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 1939.1.1 = {
 	set_politics = {
 
-		parties = {
-			democratic = { 
-				popularity = 10
-			}
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
 
-			fascism = {
-				popularity = 10
-			}
-			
-			communism = {
-				popularity = 1
-			}
-
-			neutrality = {
-				popularity = 79
-			}
+		fascism = {
+			popularity = 0
 		}
 		
-		ruling_party = neutrality
-		last_election = "1939.7.1"
-		election_frequency = 36
-		elections_allowed = yes
+		communism = {
+			popularity = 97
+		}
+
+		neutrality = {
+			popularity = 3
+		}
+	}
+	
+	ruling_party = communism
+	last_election = "1933.7.1"
+	election_frequency = 36
+	elections_allowed = no
+}
 	}
 }
 create_country_leader = {
