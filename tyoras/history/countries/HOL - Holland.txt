@@ -22,21 +22,6 @@ set_technology = {
 	transport = 1
 }
 
-# DIPLOMACY
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = INS
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = INS
-	}
-}
-
-
 1939.1.1 = {
 	add_ideas = {
 		limited_conscription
@@ -106,11 +91,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 93
+			popularity = 4
 		}
 
 		fascism = {
-			popularity = 4
+			popularity = 93
 		}
 		
 		communism = {
@@ -118,7 +103,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -126,17 +111,6 @@ set_politics = {
 
 set_convoys = 500
 set_stability = 0.75
-
-create_country_leader = {
-	name = "Dirk Jan de Geer"
-	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
-	picture = "Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
 
 create_country_leader = {
 	name = "Anton Mussert"

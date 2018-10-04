@@ -62,20 +62,20 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 98
+			popularity = 2
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 98
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 0
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1936.1.10"
 	election_frequency = 48
 	elections_allowed = yes
@@ -86,7 +86,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
 	picture = "GFX_portrait_cuba_jose_barnet"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}

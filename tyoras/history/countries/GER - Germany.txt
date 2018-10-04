@@ -67,14 +67,6 @@ create_import = {
 	
 	#adding ministers
 	add_ideas = {
-		henschel
-		ig_faben
-		heinrich_himmler
-		rudolf_hess
-		ludwig_beck
-		gerd_von_rundstedt
-		GER_autarky_idea
-
 		#laws
 		war_economy
 		extensive_conscription
@@ -238,15 +230,9 @@ set_politics = {
 
 
 add_ideas = {
-	sour_loser
-	general_staff
-	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
 }
-add_ideas = GER_mefo_bills_1
-
-activate_mission = GER_mefo_bills_mission
 
 create_country_leader = {
 	name = "Ernst Rohm"

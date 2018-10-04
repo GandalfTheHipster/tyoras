@@ -90,10 +90,10 @@ set_stability = 0.55
 
 
 create_country_leader = {
-	name = "Mehmed VI"
+	name = "Mehmed VII"
 	desc = "POLITICS_MEHMED_DESC"
-	picture = ""
-	expire = ""
+	picture = "Mehmed_Selim_Efendi.tga"
+	expire = "1999.2.8"
 	ideology = despotism
 	traits = {
 		#

@@ -49,13 +49,6 @@ set_technology = {
 
 	#adding ministers
 	add_ideas = {
-		FRA_charles_tillon
-		francois_darlan
-		philippe_fequant
-		famh
-		jean_marie_bergeret
-		renault_fra
-
 		#laws
 		partial_economic_mobilisation
 	}
@@ -148,28 +141,23 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 70
 		}
 		
 		communism = {
-			popularity = 70
+			popularity = 0
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 add_ideas = {
-	FRA_victors_of_wwi
-	FRA_disjointed_government
-	FRA_protected_by_the_maginot_line
 	limited_conscription
 }
-
-#give_guarantee = CZE
 
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {
@@ -177,7 +165,7 @@ create_country_leader = {
 	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
 	picture = "Paul_Painleve.tga"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = fascism_ideology
 	traits = {
 		
 	}
@@ -189,17 +177,6 @@ create_country_leader = {
 	picture = "GFX_portrait_fra_maurice_thorez"
 	expire = "1965.1.1"
 	ideology = 	conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Philippe Pétain"
-	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
-	picture = "Portrait_France_Philippe_Petain.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
 	traits = {
 		
 	}

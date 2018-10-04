@@ -41,21 +41,22 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 15
+			popularity = 0
 		}
 
-		neutrality = {
-			popularity = 20
+		fascism = {
+			popularity = 11
 		}
 		
 		communism = {
-			popularity = 60
-		}
-
-		fascism = { 
-			popularity = 5
+			popularity = 89
 		}
 	}
+	
+	ruling_party = communism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {
