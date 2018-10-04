@@ -20,15 +20,15 @@ add_to_faction = BOS
 
 set_autonomy = {
 	target = MOL
-	autonomous_state = autonomy_puppet
+	autonomous_state = tyo_Otto_Princi
 }
 set_autonomy = {
 	target = TRA
-	autonomous_state = autonomy_puppet
+	autonomous_state = tyo_Otto_Princi
 }
 set_autonomy = {
 	target = WAL
-	autonomous_state = autonomy_puppet
+	autonomous_state = tyo_Otto_Princi
 }
 set_autonomy = {
 	target = BOS
@@ -90,7 +90,7 @@ set_stability = 0.55
 
 
 create_country_leader = {
-	name = "Mehmed VII"
+	name = "Mustafa VI"
 	desc = "POLITICS_MEHMED_DESC"
 	picture = "Mehmed_Selim_Efendi.tga"
 	expire = "1999.2.8"
