@@ -7,12 +7,12 @@ state={
 	state_category = town
 
 	history={
-		owner = MEX
+		owner = SAU
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = MEX
+		add_core_of = SAU
 		victory_points = {
 			4956 1 
 		}

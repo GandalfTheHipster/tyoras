@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = GER
+		owner = TUR
 		buildings = {
 			infrastructure = 2
 			4982 = {
