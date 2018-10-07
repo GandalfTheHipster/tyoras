@@ -90,7 +90,7 @@ set_stability = 0.55
 
 
 create_country_leader = {
-	name = "Mustafa VI"
+	name = "Mehmed Selim Efendi"
 	desc = "POLITICS_MEHMED_DESC"
 	picture = "Mehmed_Selim_Efendi.tga"
 	expire = "1999.2.8"
