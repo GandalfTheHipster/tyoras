@@ -2,7 +2,7 @@
 # MAIN THEME
 music = {
 	name = "maintheme"
-	file = "hoi4mainthemeallies.ogg"
+	file = "tyorasmaintheme.ogg"
 	volume = 0.65
 }
 
@@ -26,7 +26,7 @@ music = {
 # General war:
 music = {
 	name = "general_war_1"
-	file = "general_war_bringforththetanks.ogg"
+	file = "ottomanwarsong.ogg"
 	volume = 0.65
 }
 music = {

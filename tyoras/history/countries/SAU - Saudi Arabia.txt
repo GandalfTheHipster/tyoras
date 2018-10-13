@@ -101,24 +101,10 @@ create_country_leader = {
 
 create_faction = islam_federation
 add_to_faction = SAU
-add_to_faction = ITA
-add_to_faction = FRA
-add_to_faction = CUB
-add_to_faction = YEM
-add_to_faction = HAI
-add_to_faction = GER
-add_to_faction = HOL
-add_to_faction = BEL
-add_to_faction = EGY
-add_to_faction = AFG
-add_to_faction = LIB
-add_to_faction = COG
-add_to_faction = MEX
-add_to_faction = DOM
 add_to_faction = PER
+add_to_faction = EGY
 add_to_faction = NIC
-add_to_faction = AUS
-add_to_faction = CRO
+
 
 1939.1.1 = {
 	set_politics = {
