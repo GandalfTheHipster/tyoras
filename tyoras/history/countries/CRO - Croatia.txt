@@ -1,8 +1,8 @@
-﻿capital = 109
+﻿capital = 777
 
 set_research_slots = 2
 
-oob = "CRO_1936"
+#oob = "CRO_1936"
 
 set_technology = {
 	infantry_weapons = 1
