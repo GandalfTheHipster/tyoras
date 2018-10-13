@@ -533,20 +533,8 @@ D15 = {
 }
 
 TRA = {
-    color = rgb { 1 135 80 }
-	color_ui = rgb { 118 0 0 }
-}
-MOL = {
-    color = rgb { 255 210 0 }
-	color_ui = rgb { 118 0 0 }
-}
-WAL = {
-    color = rgb { 204 2 4 }
-	color_ui = rgb { 118 0 0 }
-}
-BOS = {
-    color = rgb { 45 17 117}
-	color_ui = rgb { 118 0 0 }
+    color = rgb { 71 113 97 }
+	color_ui = rgb { 92 147 126 }
 }
 MOL = {
     color = rgb { 153 61 0 }

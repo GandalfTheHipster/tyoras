@@ -5,7 +5,7 @@
 set_research_slots = 3
 
 add_ideas = {
-	limited_conscription
+	GRE_rumis_terrorist
 }
 
 set_technology = {

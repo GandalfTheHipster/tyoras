@@ -1,0 +1,17 @@
+state={
+	id=764
+	name="STATE_764"
+
+	history={
+		owner = BOS
+		buildings = {
+		}
+		add_core_of = BOS
+	}
+
+	provinces={
+		982 11741 11899 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

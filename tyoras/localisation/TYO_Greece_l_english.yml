@@ -1,0 +1,18 @@
+﻿l_english:
+ GRE_fascism:1 "Kingdom of Greece"
+ GRE_fascism_DEF:1 "the Kingdom of Greece"
+ GRE_democratic:0 "Kingdom of Greece"
+ GRE_democratic_DEF:0 "the Kingdom of Greece"
+ GRE_neutrality:0 "Kingdom of Greece"
+ GRE_neutrality_DEF:0 "The Kingdom of Greece"
+ GRE_communism:0 "Kingdom of Greece"
+ GRE_communism_DEF:0 "the Kingdom of Greece"
+ GRE_fascism_ADJ:0 "Greek"
+ GRE_democratic_ADJ:0 "Greek"
+ GRE_neutrality_ADJ:0 "Greek"
+ GRE_communism_ADJ:0 "Greek"
+
+ GRE_TUR_TYO_Ottoman_protectorate:0 "Greek Vilayet"
+
+ #Ideas
+ GRE_rumis_terrorist:0 "Rumis Partisans"
