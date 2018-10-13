@@ -11,3 +11,7 @@
  TUR_democratic_ADJ:0 "Ottoman"
  TUR_neutrality_ADJ:0 "Ottoman"
  TUR_communism_ADJ:0 "Ottoman"
+
+ #ideas
+ TUR_stagnating_economy:0 "Stagnating Economy"
+ TUR_widespread_corruption:0 "Widespread Corruption"

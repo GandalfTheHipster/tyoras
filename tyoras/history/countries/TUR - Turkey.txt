@@ -5,7 +5,8 @@
 set_research_slots = 3
 
 add_ideas = {
-
+    TUR_stagnating_economy
+    TUR_widespread_corruption
 }
 
 create_faction = Sunni_faction
@@ -32,11 +33,11 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = BOS
-	autonomous_state = autonomy_puppet
+	autonomous_state = TYO_Ottoman_protectorate
 }
 set_autonomy = {
 	target = GRE
-	autonomous_state = autonomy_puppet
+	autonomous_state = TYO_Ottoman_protectorate
 }
 
 

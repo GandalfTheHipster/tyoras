@@ -1,0 +1,24 @@
+ideas = {
+
+    country = {
+        GRE_rumis_terrorist = {
+
+            removal_cost = -1
+			
+			allowed = {
+				original_tag = TUR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = great_depression
+			
+			modifier = {
+                stability_factor = -0.10
+			    political_power_gain = -0.1
+			}
+		}
+	}
+}

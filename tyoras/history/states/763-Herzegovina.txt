@@ -1,8 +1,19 @@
+
 state={
 	id=763
 	name="STATE_763"
+
+	history={
+		owner = BOS
+		buildings = {
+            infrastructure = 5
+		}
+		add_core_of = BOS
+
+	}
+
 	provinces={
-		953 6889 6942 6957 9894 9922 11845 11872 
+		953 6889 6942 6957 9894 11845 11872 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

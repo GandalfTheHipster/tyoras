@@ -1,6 +1,14 @@
 state={
 	id=764
 	name="STATE_764"
+
+	history={
+		owner = BOS
+		buildings = {
+		}
+		add_core_of = BOS
+	}
+
 	provinces={
 		982 11741 11899 
 	}
