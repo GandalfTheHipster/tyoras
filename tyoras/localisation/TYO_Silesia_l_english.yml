@@ -1,0 +1,13 @@
+﻿l_english:
+ SIL_fascism:1 "Kingdom of Silesia"
+ SIL_fascism_DEF:1 "the Kingdom of Silesia"
+ SIL_democratic:0 "Kingdom of Silesia"
+ SIL_democratic_DEF:0 "the Kingdom of Silesia"
+ SIL_neutrality:0 "Kingdom of Silesia"
+ SIL_neutrality_DEF:0 "The Kingdom of Silesia"
+ SIL_communism:0 "Kingdom of Silesia"
+ SIL_communism_DEF:0 "the Kingdom of Silesia"
+ SIL_fascism_ADJ:0 "Silesiaen"
+ SIL_democratic_ADJ:0 "Silesiaen"
+ SIL_neutrality_ADJ:0 "Silesiaen"
+ SIL_communism_ADJ:0 "Silesiaen"
