@@ -548,3 +548,8 @@ BOS = {
     color = rgb { 67 158 34 }
 	color_ui = rgb { 67 158 34 }
 }
+
+CRI = {
+	color = rgb { 174 175 175 }
+	color_ui = hsv { 0.1 0.01 0.69 }
+}

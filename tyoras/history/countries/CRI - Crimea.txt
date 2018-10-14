@@ -1,26 +1,32 @@
-﻿capital = 764
+﻿capital = 137
 
-#oob = "ROM_1936"
+#oob = ""
 
-set_research_slots = 3
-set_stability = 0.6
-set_war_support = 0.6
+set_research_slots = 2
 
-# Starting tech
+add_ideas = {
+    
+}
+
+
+
+
+
 set_technology = {
-	tech_support = 1		
-	tech_engineers = 1
-	tech_mountaineers = 1
-	motorised_infantry = 1
-	gwtank = 1
-	basic_light_tank = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	gw_artillery = 1
+	tech_mountaineers = 1
 	early_fighter = 1
+	CAS1 = 1
 	early_submarine = 1
 	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
 }
+
 
 set_politics = {
 
@@ -31,10 +37,12 @@ set_politics = {
 
 		fascism = {
 			popularity = 0
+			banned = yes
 		}
 		
 		communism = {
 			popularity = 0
+			banned = yes #default is no
 		}
 		
 		neutrality = { 
@@ -43,19 +51,24 @@ set_politics = {
 	}
 	
 	ruling_party = neutrality
-	last_election = "1933.12.20"
+	last_election = "1935.2.8"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
+
+set_convoys = 20
+set_stability = 0.55
+
 
 
 create_country_leader = {
 	name = "Placeholder"
 	desc = ""
 	picture = ""
-	expire = "1965.1.1"
-	ideology = centrism
+	expire = "1999.2.8"
+	ideology = despotism
 	traits = {
 		#
 	}
 }
+

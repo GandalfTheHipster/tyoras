@@ -18,6 +18,7 @@ add_to_faction = MOL
 add_to_faction = TRA
 add_to_faction = WAL
 add_to_faction = BOS
+add_to_faction = CRI
 
 set_autonomy = {
 	target = MOL
@@ -39,6 +40,11 @@ set_autonomy = {
 	target = GRE
 	autonomous_state = TYO_Ottoman_protectorate
 }
+set_autonomy = {
+	target = CRI
+	autonomous_state = TYO_Ottoman_military_puppet
+}
+
 
 
 set_technology = {
