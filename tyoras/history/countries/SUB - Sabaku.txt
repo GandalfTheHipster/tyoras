@@ -1,4 +1,4 @@
-﻿capital = 785
+capital = 785
 
 oob = "ZIM_1936"
 
@@ -76,7 +76,7 @@ set_politics = {
 create_country_leader = {
 	
 	name = "Tenno Sabi"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	picture = "gfx/leaders/JAP/Portrait_Japan_Harukichi_Hyakutake.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = { 
@@ -87,7 +87,5 @@ create_country_leader = {
 
 
 }
-
-
 
 
