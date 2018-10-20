@@ -77,7 +77,7 @@ focus = {
 id = ENG_ghentagreement
 icon = GFX_goal_generic_improve_relations
 x = 20
-y = 5
+y = 6
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = ENG_globalisationfocus } 
@@ -91,8 +91,8 @@ ai_will_do = {
 focus = { 
 id = ENG_capitalistreform
 icon = GFX_goal_generic_construct_civ_factory
-x = 18
-y = 6
+x = 20
+y = 8
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = ENG_ghentagreement } 
@@ -106,8 +106,8 @@ ai_will_do = {
 focus = { 
 id = ENG_stateindustry
 icon = GFX_goal_generic_political_pressure
-x = 23
-y = 6
+x = 24
+y = 8
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = ENG_ghentagreement focus = ENG_icelandpurchase } 
@@ -213,6 +213,7 @@ x = 14
 y = 9
 cost = 10
 available_if_capitulated = yes 
+prerequisite = { focus = ENG_thefinalsolution } 
 ai_will_do = { 
  factor = 1
  } 
@@ -453,7 +454,7 @@ ai_will_do = {
 focus = { 
 id = ENG_yingzoutradeinfrastructure
 icon = GFX_goal_generic_construct_infrastructure
-x = 11
+x = 10
 y = 9
 cost = 10
 available_if_capitulated = yes 
@@ -468,7 +469,7 @@ ai_will_do = {
 focus = { 
 id = ENG_onediaagreement
 icon = GFX_goal_generic_improve_relations
-x = 11
+x = 10
 y = 8
 cost = 10
 available_if_capitulated = yes 
@@ -483,7 +484,7 @@ ai_will_do = {
 focus = { 
 id = ENG_thedowntrodden
 icon = GFX_goal_tripartite_pact
-x = 9
+x = 8
 y = 8
 cost = 10
 available_if_capitulated = yes 
@@ -499,7 +500,7 @@ focus = {
 id = ENG_consolidatinggains
 icon = GFX_goal_generic_national_unity
 x = 27
-y = 6
+y = 8
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = ENG_icelandpurchase } 
@@ -534,7 +535,7 @@ focus = {
 id = ENG_irishultimatum
 icon = GFX_goal_generic_position_armies
 x = 26
-y = 4
+y = 6
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = ENG_englishascendancy } 
@@ -549,10 +550,10 @@ focus = {
 id = ENG_icelandpurchase
 icon = GFX_goal_generic_intelligence_exchange
 x = 24
-y = 5
+y = 7
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = ENG_scandinavianultimatum focus = ENG_irishultimatum focus = ENG_scottishintegration } 
+prerequisite = { focus = ENG_irishultimatum focus = ENG_scandinavianultimatum } 
 ai_will_do = { 
  factor = 1
  } 
@@ -564,7 +565,7 @@ focus = {
 id = ENG_scandinavianultimatum
 icon = GFX_goal_generic_position_armies
 x = 22
-y = 4
+y = 6
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = ENG_englishascendancy } 
@@ -598,6 +599,141 @@ y = 6
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = ENG_centraleuropeanfocus } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Millitary Industry II
+focus = { 
+id = ENG_millitaryindustryii
+icon = GFX_goal_generic_construct_mil_factory
+x = 23
+y = 10
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_millitaryindustryi } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Millitary Industry III
+focus = { 
+id = ENG_millitaryindustryiii
+icon = GFX_goal_generic_construct_mil_factory
+x = 23
+y = 11
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_millitaryindustryii } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Final Solution
+focus = { 
+id = ENG_thefinalsolution
+icon = GFX_goal_generic_secret_weapon
+x = 14
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_muslimrelocationprogram } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Millitary Industry I
+focus = { 
+id = ENG_millitaryindustryi
+icon = GFX_goal_generic_construct_mil_factory
+x = 23
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_stateindustry focus = ENG_capitalistreform } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Civilian Industry I
+focus = { 
+id = ENG_civilianindustryi
+icon = GFX_goal_generic_construct_civ_factory
+x = 21
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_stateindustry focus = ENG_capitalistreform } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Civilian Industry II
+focus = { 
+id = ENG_civilianindustryii
+icon = GFX_goal_generic_construct_civ_factory
+x = 21
+y = 10
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_civilianindustryi } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Civilian Industry III
+focus = { 
+id = ENG_civilianindustryiii
+icon = GFX_goal_generic_construct_civ_factory
+x = 21
+y = 11
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_civilianindustryii } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Northward English Railway Extension
+focus = { 
+id = ENG_northwardenglishrailwayextension
+icon = GFX_goal_generic_construct_civilian
+x = 26
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_consolidatinggains } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reykjavik Port Project
+focus = { 
+id = ENG_reykjavikportproject
+icon = GFX_goal_generic_construct_naval_dockyard
+x = 29
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ENG_consolidatinggains } 
 ai_will_do = { 
  factor = 1
  } 

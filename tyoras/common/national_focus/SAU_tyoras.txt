@@ -1,0 +1,275 @@
+focus_tree = { 
+id = tyoras
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = SAU 
+} 
+} 
+#Focus for Antakya Excursion
+focus = { 
+id = SAU_antakyaexcursion
+icon = GFX_goal_generic_occupy_states_ongoing_war
+x = 18
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_theottomanmenace } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Diplomatic Visit to Cairo
+focus = { 
+id = SAU_diplomaticvisittocairo
+icon = GFX_goal_generic_intelligence_exchange
+x = 6
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_repairafricanrelations } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Mecca Conference
+focus = { 
+id = SAU_themeccaconference
+icon = GFX_goal_generic_improve_relations
+x = 7
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_diplomaticvisittocairo } 
+prerequisite = { focus = SAU_diplomaticvisittokampala } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Diplomatic Visit to Kampala
+focus = { 
+id = SAU_diplomaticvisittokampala
+icon = GFX_goal_generic_intelligence_exchange
+x = 8
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_repairafricanrelations } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Repair African Relations
+focus = { 
+id = SAU_repairafricanrelations
+icon = GFX_goal_generic_national_unity
+x = 6
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_theunion } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reengage with the Ivory Coast
+focus = { 
+id = SAU_reengagewiththeivorycoast
+icon = GFX_focus_jap_cast_the_die
+x = 3
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_repairafricanrelations } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The State
+focus = { 
+id = SAU_thestate
+icon = GFX_focus_ger_revive_kaiserreich
+x = 23
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_stablisingtheislamicworld } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Church
+focus = { 
+id = SAU_thechurch
+icon = GFX_focus_YUG_banovina_of_croatia
+x = 16
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_stablisingtheislamicworld } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Leader of the Islamic World
+focus = { 
+id = SAU_leaderoftheislamicworld
+icon = GFX_goal_generic_propaganda
+x = 16
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Stablising the Islamic World
+focus = { 
+id = SAU_stablisingtheislamicworld
+icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+x = 16
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_leaderoftheislamicworld } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Great Islamic Union
+focus = { 
+id = SAU_thegreatislamicunion
+icon = GFX_goal_generic_national_unity
+x = 21
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_thestate focus = SAU_thechurch } 
+mutually_exclusive = { focus = SAU_greaterarabia focus = SAU_theottomanmenace focus = SAU_ }ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Union
+focus = { 
+id = SAU_theunion
+icon = GFX_focus_generic_home_defense
+x = 10
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_stablisingtheislamicworld } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Embargo the OTB
+focus = { 
+id = SAU_embargotheotb
+icon = GFX_goal_generic_positive_trade_relations
+x = 15
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_sunniislamseperation } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Greater Arabia
+focus = { 
+id = SAU_greaterarabia
+icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+x = 24
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_thestate } 
+mutually_exclusive = { focus = SAU_thegreatislamicunion } 
+mutually_exclusive = { focus = SAU_ } 
+mutually_exclusive = { focus = SAU_thegreatislamicunion } 
+mutually_exclusive = { focus = SAU_thegreatislamicunion } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Ottoman Menace!
+focus = { 
+id = SAU_theottomanmenace
+icon = GFX_goal_generic_secret_weapon
+x = 18
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_thechurch focus = SAU_thestate } 
+mutually_exclusive = { focus = SAU_thegreatislamicunion } 
+mutually_exclusive = { focus = SAU_thegreatislamicunion } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Sunni Islam Seperation
+focus = { 
+id = SAU_sunniislamseperation
+icon = GFX_focus_rom_abdicate
+x = 15
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_thechurch focus = SAU_theunion } 
+mutually_exclusive = { focus = SAU_arabottomannegotiation } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Arab-Ottoman Negotiation
+focus = { 
+id = SAU_arabottomannegotiation
+icon = GFX_goal_generic_improve_relations
+x = 11
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SAU_thechurch focus = SAU_theunion } 
+mutually_exclusive = { focus = SAU_sunniislamseperation } 
+mutually_exclusive = { focus = SAU_sunniislamseperation } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

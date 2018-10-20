@@ -1,0 +1,95 @@
+add_namespace = theyearsofriceandsalt
+
+##Event: Hiroshoma Revolution
+news_event = {
+ id = theyearsofriceandsalt.1
+ title = theyearsofriceandsalt.1.title
+ desc = theyearsofriceandsalt.1.desc
+ picture = GFX_news_event_soviet_soldiers_ruins
+ fire_only_once = yes
+ major = yes
+ trigger = {
+date < 1938.1.1
+	}	option = {
+		name = theyearsofriceandsalt.1.a
+		ai_chance = { factor = 1}
+	}
+}
+
+##Event: Assassination of Adolf Schicklgruber
+news_event = {
+ id = theyearsofriceandsalt.2
+ title = theyearsofriceandsalt.2.title
+ desc = theyearsofriceandsalt.2.desc
+ picture = GFX_news_event_029
+ fire_only_once = yes
+ major = yes
+	mean_time_to_happen = { days = 1}
+	option = {
+		name = theyearsofriceandsalt.2.a
+		ai_chance = { factor = 1}
+	}
+}
+
+##Event: Yingzhou falls to the Japanese
+country_event = {
+ id = theyearsofriceandsalt.3
+ title = theyearsofriceandsalt.3.title
+ desc = theyearsofriceandsalt.3.desc
+ picture = GFX_report_event_japanese_parade
+ fire_only_once = yes
+ major = yes
+	option = {
+		name = theyearsofriceandsalt.3.a
+		ai_chance = { factor = 1}
+	}
+}
+
+##Event: Japanese Independence!
+country_event = {
+ id = theyearsofriceandsalt.4
+ title = theyearsofriceandsalt.4.title
+ desc = theyearsofriceandsalt.4.desc
+ picture = GFX_report_event_japanese_transport_soldiers
+ fire_only_once = yes
+ major = yes
+	option = {
+		name = theyearsofriceandsalt.4.a
+		ai_chance = { factor = 1}
+	}
+}
+
+##Event: Beer Hall Putsch
+country_event = {
+ id = theyearsofriceandsalt.5
+ title = theyearsofriceandsalt.5.title
+ desc = theyearsofriceandsalt.5.desc
+ picture = GFX_report_event_french_resistance_01
+ fire_only_once = yes
+ major = yes
+	mean_time_to_happen = { days = 1}
+	option = {
+		name = theyearsofriceandsalt.5.a
+		ai_chance = { factor = 1}
+	}
+	option = {
+		name = theyearsofriceandsalt.5.b
+		ai_chance = { factor = 1}
+	}
+	option = {
+		name = theyearsofriceandsalt.5.c
+		ai_chance = { factor = 1}
+	}
+}
+
+##Event: Kollam-Chinese Alliance
+news_event = {
+ id = theyearsofriceandsalt.6
+ title = theyearsofriceandsalt.6.title
+ desc = theyearsofriceandsalt.6.desc
+ picture = GFX_news_event_mex_civil_war
+ fire_only_once = yes
+ major = yes
+	mean_time_to_happen = { days = 1}
+}
+
