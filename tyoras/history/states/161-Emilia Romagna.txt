@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = CUB
+		owner = EMI
 		victory_points = {
 			6606 3 
 		}
@@ -23,7 +23,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = CUB
+		add_core_of = EMI
 	}
 
 	provinces={

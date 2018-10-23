@@ -1,207 +1,369 @@
 ideologies = {
-	
-	democratic = {
-	
+	communalist = {
 		types = {
+			leninist_subtype = {}
 			
-			conservatism = {
+			internationalist_leninism = {}
+			
+			centrist_leninism = {}
+			
+			marxist_leninism = {}
+			
+			left_leninism = {}
+			
+			buddhist_communism = {}
 			}
-		
-			liberalism = {
-			}
-		
-			socialism = {
-			}
-		}
-		
 		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
+
 		}
-		
-		color = { 201 56 93  }
-		
+		color = { 45 5 15 }
 		rules = {
-			can_declare_war_on_same_ideology = no
-			can_force_government = yes
-			can_send_volunteers = no
+			can_force_government = no
 			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
-		}
-		
-		war_impact_on_world_tension = -1.0
-		faction_impact_on_world_tension = -0.1
-		
+			can_join_factions = no
+			can_send_volunteers = yes
+		}		
 		modifiers = {
-			generate_wargoal_tension = 1.00
 			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
+			generate_wargoal_tension = 0.80
 		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
-		ai_democratic = yes # uses the democratic AI behaviour
-	}
-
-
-	communism = {
-		
-		types = {
-		
-			marxism = {
-			}
-			
-			leninism = {
-			}
-			
-			stalinism = {
-			}
-			
-			anti_revisionism = {
-			}
-			
-			anarchist_communism = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
-		}
-		
-		color = { 162 162 91 }
-		
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
-		
-		ai_communist = yes # uses the commie AI behaviour
-		
-		rules = {
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
-		}
-		
-		modifiers = {
-			puppet_cost_factor = -0.3
-		}
-		
-		faction_modifiers = {
-			
-		}
-
-	}
-
-	fascism = {
-	
-		types = {
-		
-			nazism = {
-			}
-			
-			fascism_ideology = {
-			}
-			
-			falangism = {
-			}
-			
-			rexism = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
-		}
-		
-		color = { 113 179 48 }
-		
-		war_impact_on_world_tension = 1.0			#evil!
-		faction_impact_on_world_tension = 1.0
-		
-		rules = {
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
-		}
-		
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
-		}
-
-		ai_fascist = yes # uses the fascist AI behaviour
-	}
-	
-	neutrality = {
-	
-		types = {
-		
-			despotism  = {
-			}
-			
-			oligarchism  = {
-			}
-			
-			moderatism = {
-			}
-			
-			centrism = {
-			}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_NONALIGNED_1"
-			"FACTION_NAME_NONALIGNED_2"
-			"FACTION_NAME_NONALIGNED_3"
-			"FACTION_NAME_NONALIGNED_4"
-			"FACTION_NAME_NONALIGNED_5"
-		}
-		
-		color = { 255 244 190 }
-		
-		
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
-		
-		rules = {
-			can_force_government = no
-			can_puppet = yes
-			can_send_volunteers = no
-		}
-		
-		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-			drift_defence_factor = -0.3	
-		}
-		
-		faction_modifiers = {
-		}
-
+		ai_neutral = yes	
 		can_be_boosted = no
-		can_collaborate = yes
 
-		ai_neutral = yes # 
+	}
+	
+	revolutionairist = {
+		types = {
+			marxist_subtype = {}
+			
+			council_communism = {}
+			
+			de_leonism = {}
+			
+			agrarian_marxism = {}
+			
+			left_marxism = {}
+		}
+		dynamic_faction_names = {
+		}
+		color = { 90 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.80
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+	}
+	
+	democratic_socialist = {
+		types = {
+			democratic_socialist_subtype = {}
+			
+			austromarxism = {}
+			
+			religious_socialism = {}
+			
+			centrist_marxism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_SOCIALIST_1"
+			"FACTION_NAME_DEMOCRATIC_SOCIALIST_2"
+			"FACTION_NAME_DEMOCRATIC_SOCIALIST_3"
+			"FACTION_NAME_DEMOCRATIC_SOCIALIST_4"
+			"FACTION_NAME_DEMOCRATIC_SOCIALIST_5"
+			"FACTION_NAME_DEMOCRATIC_SOCIALIST_6"
+		}
+		color = { 233 58 58 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.80
+		}
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	
+	social_democrat = {
+		types = {
+			social_democrat_subtype = {}
+			
+			left_radicalism = {}
+			
+			labour = {}
+			
+			agrarian_populism = {}
+			
+			liberal_socialism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_DEMOCRAT_1"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_2"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_3"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_4"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_5"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_6"
+		}
+		color = { 194 30 86 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.80
+		}
+		ai_neutral = yes	
+		can_be_boosted = no
+
+	}
+	
+	social_liberal = {
+		types = {
+			social_liberal_subtype = {}
+			
+			moderate_radicalism = {}
+			
+			neoliberalism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_LIBERAL_1"
+			"FACTION_NAME_SOCIAL_LIBERAL_2"
+			"FACTION_NAME_SOCIAL_LIBERAL_3"
+			"FACTION_NAME_SOCIAL_LIBERAL_4"
+			"FACTION_NAME_SOCIAL_LIBERAL_5"
+			"FACTION_NAME_SOCIAL_LIBERAL_6"
+		}
+		color = { 255 170 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.80
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+	}
+
+	liberal_conservative = {
+		types = {
+			liberal_conservative_subtype = {}
+			
+			national_liberalism = {}
+			
+			classical_liberalism = {}
+			
+			conservative_liberalism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERAL_CONSERVATIVE_1"
+			"FACTION_NAME_LIBERAL_CONSERVATIVE_2"
+			"FACTION_NAME_LIBERAL_CONSERVATIVE_3"
+			"FACTION_NAME_LIBERAL_CONSERVATIVE_4"
+			"FACTION_NAME_LIBERAL_CONSERVATIVE_5"
+			"FACTION_NAME_LIBERAL_CONSERVATIVE_6"
+		}
+		color = { 255 216 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.80
+		}
+		ai_neutral = yes	
+		can_be_boosted = no
+	}
+	
+	social_conservative = {
+		types = {
+			social_conservative_subtype = {}
+			
+			religious_conservatism = {}
+			
+			national_conservatism = {}
+			
+			toryism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_1"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_2"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_3"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_4"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_5"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_6"
+		}
+		color = { 0 0 255 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.80
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+	}
+	
+	authoritarian_democrat = {
+		types = {
+			authoritarian_democrat_subtype = {}
+			
+			semi_constitutional_monarchism = {}
+			
+			authoritarian_republicanism = {}
+			
+			semi_democratic_military_junta = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+		}
+		color = { 55 60 90 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.80
+		}
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	
+	right_wing_populist = {
+		types = {
+			right_wing_populist_subtype = {}
+			
+			absolute_monarchism = {}
+			
+			reactionary_republicanism = {}
+			
+			military_junta = {}
+			
+			authoritarian_populism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_RIGHT_WING_POPULIST_1"
+			"FACTION_NAME_RIGHT_WING_POPULIST_2"
+			"FACTION_NAME_RIGHT_WING_POPULIST_3"
+			"FACTION_NAME_RIGHT_WING_POPULIST_4"
+			"FACTION_NAME_RIGHT_WING_POPULIST_5"
+			"FACTION_NAME_RIGHT_WING_POPULIST_6"
+		}
+		color = { 110 110 110 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.80
+		}
+		ai_neutral = yes	
+		can_be_boosted = no
+	}
+	
+	national_syndicalist = {
+		types = {
+			national_syndicalist_subtype = {}
+			
+			prussian_socialism = {}
+			
+			national_integralism = {}
+			
+			national_bolshevism = {}
+			
+			national_sorelianism = {}
+			
+			falangism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_NATIONAL_SYNDICALIST_1"
+			"FACTION_NAME_NATIONAL_SYNDICALIST_2"
+			"FACTION_NAME_NATIONAL_SYNDICALIST_3"
+			"FACTION_NAME_NATIONAL_SYNDICALIST_4"
+			"FACTION_NAME_NATIONAL_SYNDICALIST_5"
+			"FACTION_NAME_NATIONAL_SYNDICALIST_6"
+		}
+		color = { 45 45 45 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.80
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+	}
+	
+	national_corporatist = {
+		types = {
+			national_corporatist_subtype = {}
+			
+			occultist_ultranationalism = {}
+			
+			italian_fascism = {}
+			
+			clerical_fascism = {}
+			
+			fordism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_NATIONAL_CORPORATIST_1"
+			"FACTION_NAME_NATIONAL_CORPORATIST_2"
+			"FACTION_NAME_NATIONAL_CORPORATIST_3"
+			"FACTION_NAME_NATIONAL_CORPORATIST_4"
+			"FACTION_NAME_NATIONAL_CORPORATIST_5"
+			"FACTION_NAME_NATIONAL_CORPORATIST_6"
+		}
+		color = { 142 57 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.80
+		}
+		ai_neutral = yes			
+		can_be_boosted = no
 	}
 }
