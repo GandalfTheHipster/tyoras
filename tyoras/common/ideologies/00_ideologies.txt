@@ -1,18 +1,7 @@
 ideologies = {
 	communalist = {
 		types = {
-			leninist_subtype = {}
-			
-			internationalist_leninism = {}
-			
-			centrist_leninism = {}
-			
-			marxist_leninism = {}
-			
-			left_leninism = {}
-			
-			buddhist_communism = {}
-			}
+		}
 		dynamic_faction_names = {
 
 		}
@@ -34,15 +23,7 @@ ideologies = {
 	
 	revolutionairist = {
 		types = {
-			marxist_subtype = {}
-			
-			council_communism = {}
-			
-			de_leonism = {}
-			
-			agrarian_marxism = {}
-			
-			left_marxism = {}
+
 		}
 		dynamic_faction_names = {
 		}
@@ -61,23 +42,11 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	democratic_socialist = {
+	democratic_reformists = {
 		types = {
-			democratic_socialist_subtype = {}
-			
-			austromarxism = {}
-			
-			religious_socialism = {}
-			
-			centrist_marxism = {}
+			democratic_reformist_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_SOCIALIST_1"
-			"FACTION_NAME_DEMOCRATIC_SOCIALIST_2"
-			"FACTION_NAME_DEMOCRATIC_SOCIALIST_3"
-			"FACTION_NAME_DEMOCRATIC_SOCIALIST_4"
-			"FACTION_NAME_DEMOCRATIC_SOCIALIST_5"
-			"FACTION_NAME_DEMOCRATIC_SOCIALIST_6"
 		}
 		color = { 233 58 58 }
 		rules = {
@@ -94,57 +63,10 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	social_democrat = {
+	democratic_liberalist = {
 		types = {
-			social_democrat_subtype = {}
-			
-			left_radicalism = {}
-			
-			labour = {}
-			
-			agrarian_populism = {}
-			
-			liberal_socialism = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_DEMOCRAT_1"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_2"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_3"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_4"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_5"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_6"
-		}
-		color = { 194 30 86 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.80
-		}
-		ai_neutral = yes	
-		can_be_boosted = no
-
-	}
-	
-	social_liberal = {
-		types = {
-			social_liberal_subtype = {}
-			
-			moderate_radicalism = {}
-			
-			neoliberalism = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_LIBERAL_1"
-			"FACTION_NAME_SOCIAL_LIBERAL_2"
-			"FACTION_NAME_SOCIAL_LIBERAL_3"
-			"FACTION_NAME_SOCIAL_LIBERAL_4"
-			"FACTION_NAME_SOCIAL_LIBERAL_5"
-			"FACTION_NAME_SOCIAL_LIBERAL_6"
 		}
 		color = { 255 170 0 }
 		rules = {
@@ -161,56 +83,10 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	liberal_conservative = {
+	conservative_traditionalist  = {
 		types = {
-			liberal_conservative_subtype = {}
-			
-			national_liberalism = {}
-			
-			classical_liberalism = {}
-			
-			conservative_liberalism = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_LIBERAL_CONSERVATIVE_1"
-			"FACTION_NAME_LIBERAL_CONSERVATIVE_2"
-			"FACTION_NAME_LIBERAL_CONSERVATIVE_3"
-			"FACTION_NAME_LIBERAL_CONSERVATIVE_4"
-			"FACTION_NAME_LIBERAL_CONSERVATIVE_5"
-			"FACTION_NAME_LIBERAL_CONSERVATIVE_6"
-		}
-		color = { 255 216 0 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.80
-		}
-		ai_neutral = yes	
-		can_be_boosted = no
-	}
-	
-	social_conservative = {
-		types = {
-			social_conservative_subtype = {}
-			
-			religious_conservatism = {}
-			
-			national_conservatism = {}
-			
-			toryism = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_1"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_2"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_3"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_4"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_5"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_6"
 		}
 		color = { 0 0 255 }
 		rules = {
@@ -227,23 +103,10 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	authoritarian_democrat = {
+	despot = {
 		types = {
-			authoritarian_democrat_subtype = {}
-			
-			semi_constitutional_monarchism = {}
-			
-			authoritarian_republicanism = {}
-			
-			semi_democratic_military_junta = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
 		}
 		color = { 55 60 90 }
 		rules = {
@@ -260,62 +123,10 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	right_wing_populist = {
+	national_revivalist = {
 		types = {
-			right_wing_populist_subtype = {}
-			
-			absolute_monarchism = {}
-			
-			reactionary_republicanism = {}
-			
-			military_junta = {}
-			
-			authoritarian_populism = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_RIGHT_WING_POPULIST_1"
-			"FACTION_NAME_RIGHT_WING_POPULIST_2"
-			"FACTION_NAME_RIGHT_WING_POPULIST_3"
-			"FACTION_NAME_RIGHT_WING_POPULIST_4"
-			"FACTION_NAME_RIGHT_WING_POPULIST_5"
-			"FACTION_NAME_RIGHT_WING_POPULIST_6"
-		}
-		color = { 110 110 110 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.80
-		}
-		ai_neutral = yes	
-		can_be_boosted = no
-	}
-	
-	national_syndicalist = {
-		types = {
-			national_syndicalist_subtype = {}
-			
-			prussian_socialism = {}
-			
-			national_integralism = {}
-			
-			national_bolshevism = {}
-			
-			national_sorelianism = {}
-			
-			falangism = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_NATIONAL_SYNDICALIST_1"
-			"FACTION_NAME_NATIONAL_SYNDICALIST_2"
-			"FACTION_NAME_NATIONAL_SYNDICALIST_3"
-			"FACTION_NAME_NATIONAL_SYNDICALIST_4"
-			"FACTION_NAME_NATIONAL_SYNDICALIST_5"
-			"FACTION_NAME_NATIONAL_SYNDICALIST_6"
 		}
 		color = { 45 45 45 }
 		rules = {
@@ -332,25 +143,10 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	national_corporatist = {
+	chauvanist = {
 		types = {
-			national_corporatist_subtype = {}
-			
-			occultist_ultranationalism = {}
-			
-			italian_fascism = {}
-			
-			clerical_fascism = {}
-			
-			fordism = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_NATIONAL_CORPORATIST_1"
-			"FACTION_NAME_NATIONAL_CORPORATIST_2"
-			"FACTION_NAME_NATIONAL_CORPORATIST_3"
-			"FACTION_NAME_NATIONAL_CORPORATIST_4"
-			"FACTION_NAME_NATIONAL_CORPORATIST_5"
-			"FACTION_NAME_NATIONAL_CORPORATIST_6"
 		}
 		color = { 142 57 0 }
 		rules = {
