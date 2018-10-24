@@ -1,0 +1,21 @@
+state={
+	id=791
+	name="STATE_791"
+	history={
+		owner = TIC
+		victory_points = {
+			3780 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+		}
+		add_core_of = TIC
+
+	}
+	provinces={
+		658 3660 3662 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

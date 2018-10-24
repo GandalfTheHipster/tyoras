@@ -1,0 +1,19 @@
+state={
+	id=789
+	name="STATE_789"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = GER
+
+	}
+	provinces={
+		6678 6680 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

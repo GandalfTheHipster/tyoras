@@ -129,7 +129,7 @@ SIL = "countries/Silya.txt"
 EMI = "countries/Emine.txt"
 TUS = "countries/Tuscany.txt"
 CEN = "countries/Cenova.txt"
-KOR = "countries/Korsika.txt"
+KRO = "countries/Korsika.txt"
 
 #American States
 SUB = "countries/Sabaku.txt"

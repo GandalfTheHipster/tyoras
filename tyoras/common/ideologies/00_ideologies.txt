@@ -105,6 +105,8 @@ ideologies = {
 	
 	despot = {
 		types = {
+		    despot_subtype= {}
+            absolute_monarch = {}
 		}
 		dynamic_faction_names = {
 		}

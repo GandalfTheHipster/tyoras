@@ -30,7 +30,10 @@ set_politics = {
 	elections_allowed = no
 }
 
-
+declare_war_on = {
+	target = TIC
+	type = annex_everything
+}
 
 
 create_country_leader = {

@@ -66,26 +66,33 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		communalist = {
+			popularity = 3
 		}
-
-		fascism = {
-			popularity = 0
-			banned = yes
+		revolutionairist = {
+			popularity = 5
 		}
-		
-		communism = {
-			popularity = 0
-			banned = yes #default is no
+		democratic_reformists = {
+			popularity = 16
 		}
-		
-		neutrality = { 
-			popularity = 100
+		democratic_liberalist = {
+			popularity = 8
+		}
+		conservative_traditionalist = {
+			popularity = 21
+		}
+		despot = {
+			popularity = 37
+		}
+		national_revivalist = {
+			popularity = 1
+		}
+		chauvanist = {
+			popularity = 9
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = despot
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -101,7 +108,7 @@ create_country_leader = {
 	desc = "POLITICS_MEHMED_DESC"
 	picture = "Mehmed_Selim_Efendi.tga"
 	expire = "1999.2.8"
-	ideology = despotism
+	ideology = absolute_monarch
 	traits = {
 		#
 	}

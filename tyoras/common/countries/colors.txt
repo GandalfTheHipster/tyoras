@@ -553,3 +553,36 @@ CRI = {
 	color = rgb { 174 175 175 }
 	color_ui = hsv { 0.1 0.01 0.69 }
 }
+TUS = {
+	color = rgb { 225 128 0 }
+	color_ui = rgb { 225 128 0 }
+}
+RHO = {
+	color = rgb { 102 0 0 }
+	color_ui = rgb { 102 0 0 }
+}
+KRO = {
+	color = rgb { 0 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+EMI = {
+	color = rgb { 154 69 116 }
+	color_ui = rgb { 154 69 116 }
+}
+EMI = {
+	color = rgb { 154 69 116 }
+	color_ui = rgb { 154 69 116 }
+}
+LOM = {
+	color = rgb { 50 135 175 }
+	color_ui = rgb { 99 204 254 }
+}
+CEN = {
+	color = rgb { 146 113 90 }
+	color_ui = rgb { 146 113 90 }
+}
+TIC = {
+	color = rgb { 247 133 39 }
+	color_ui = rgb { 247 133 39 }
+}
+

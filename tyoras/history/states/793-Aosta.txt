@@ -1,0 +1,16 @@
+state={
+	id=793
+	name="STATE_793"
+	history={
+		owner = RHO
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = RHO
+	}
+	provinces={
+		611 11570 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

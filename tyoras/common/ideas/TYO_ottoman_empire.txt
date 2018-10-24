@@ -55,7 +55,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = 
+			picture = generic_disjointed_gov
 			
 			modifier = {
                 enemy_partisan_effect = -0.1

@@ -1,0 +1,27 @@
+state={
+	id=792
+	name="STATE_792"
+
+	history={
+		owner = CEN
+		victory_points = {
+			6788 10 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			6788 = {
+				naval_base = 8
+			}
+		}
+		add_core_of = CEN
+
+	}
+
+
+	provinces={
+		6788 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}
