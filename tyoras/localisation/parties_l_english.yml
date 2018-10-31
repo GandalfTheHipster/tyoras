@@ -1,23 +1,33 @@
 ﻿l_english:
- #Mongol Monarchy
- communism:0 "Hereditary Monarchy"
- communism_noun:0 "Mongol Khaganate"
- communism_desc:0 "Khante"
- #Sunni Caliphacy
- fascism:0 "Sunni Capliphacy"
- fascism_noun:0 "Sunni Islamic Capliphate"
+ #Communalist
+ communalist:0 "Communalist"
+ communalist_noun:0 "Communal Federation"
+ communalist_desc:0 "Federation of Independent Nations & Identities"
+ #Internationalism
+ fascism:0 "Arabism"
+ fascism_noun:0 "Pan-Arabic Society"
  fascism_desc:0 "Sharia State"
- #Shia Caliphacy
+ #Democratic Reformists
  shia:0 "Shia Capliphacy"
  shia_noun:0 "Shia Capliphate"
  shia_desc:0 "Sharia State"
- #Christian Theocracy
+ #Democratic Liberalist
  democratic:0 "Theocratic"
  democratic_noun:0 "Christian Theocracy"
  democratic_desc:0 "Theocratic Regime"
- #neutrality
- neutrality:0 "Neutrality"
- neutrality_desc:0 "Neutral Regime"
+ #Conservative Traditionalist
+ democratic:0 "Theocratic"
+ democratic_noun:0 "Christian Theocracy"
+ democratic_desc:0 "Theocratic Regime"
+ #National Revivalist
+ democratic:0 "Theocratic"
+ democratic_noun:0 "Christian Theocracy"
+ democratic_desc:0 "Theocratic Regime"
+ #Chauvinist
+ chauvinist:0 "Chauvinist"
+ chauvinist_noun:0 "Chauvinist State"
+ chauvinist_desc:0 "Racial & National Supremacists"
+ #########################################
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
  liberalism:0 "Liberalism"

@@ -165,18 +165,18 @@ create_country_leader = {
 	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
 	picture = "Paul_Painleve.tga"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = democratic_liberalist
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Maurice Thorez"
+	name = "Adolf Shicklgruber"
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
-	picture = "GFX_portrait_fra_maurice_thorez"
+	picture = "adolf_shicklgruber.tga"
 	expire = "1965.1.1"
-	ideology = 	conservatism
+	ideology = european
 	traits = {
 		
 	}
