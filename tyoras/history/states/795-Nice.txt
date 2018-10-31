@@ -1,26 +1,18 @@
 state={
 	id=795
 	name="STATE_795"
+
 	history={
 		owner = RHO
-		add_core_of = RHO
-		victory_points = {
-			9909 5 
-		}
 		buildings = {
-			infrastructure = 4
-			9909 = {
-				naval_base = 2
-
-			}
-
+			infrastructure = 7
 		}
+		add_core_of = RHO
 
 	}
 	provinces={
 		3959 9909 
 	}
-	manpower=1
+	manpower=0
 	buildings_max_level_factor=1.000
-	state_category=town
 }

@@ -7,11 +7,11 @@ state={
 	state_category = rural
 
 	history={
-		owner = AFG
+		owner = KAS
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = AFG
+		add_core_of = KAS
 	}
 
 	provinces={

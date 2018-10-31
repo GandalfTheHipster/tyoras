@@ -133,3 +133,10 @@ KRO = "countries/Korsika.txt"
 
 #American States
 SUB = "countries/Sabaku.txt"
+
+#Khanates
+BUK = "countries/Bukhara.txt"
+
+#Indian Minors
+KAS = "countries/Kashmir.txt"
+SIH = "countries/Sikh.txt"
