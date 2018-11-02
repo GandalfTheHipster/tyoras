@@ -10,7 +10,7 @@ state={
 	state_category = city
 
 	history={
-		owner = GER
+		owner = ALE
 		victory_points = {
 			3569 1 
 		}
@@ -20,11 +20,11 @@ state={
 			air_base = 5
 
 		}
-		add_core_of = GER
+		add_core_of = ALE
 
 		1939.3.14 = {
-			owner = GER
-			controller = GER
+			owner = ALE
+			controller = ALE
 		}
 	}
 

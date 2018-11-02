@@ -4,13 +4,17 @@ state={
 	name="STATE_585"
 
 	history={
-		owner = SOV
+		owner = GOL
 		buildings = {
 			infrastructure = 3
 
 		}
+<<<<<<< HEAD
 		add_core_of = SOV
 
+=======
+		add_core_of = GOL
+>>>>>>> 45624ce6ea133a942ef507f9b3d3d6d91e33c1c2
 	}
 
 	provinces={

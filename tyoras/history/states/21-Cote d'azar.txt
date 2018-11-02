@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = AND
 		victory_points = {
 			911 1 
 		}
@@ -31,7 +31,7 @@ state={
 			}
 
 		}
-		add_core_of = FRA
+		add_core_of = AND
 		1939.1.1 = {
 			buildings = {
 				dockyard = 3

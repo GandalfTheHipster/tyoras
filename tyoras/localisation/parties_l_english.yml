@@ -1,32 +1,24 @@
 ﻿l_english:
- #Communalist
- communalist:0 "Communalist"
- communalist_noun:0 "Communal Federation"
- communalist_desc:0 "Federation of Independent Nations & Identities"
- #Internationalism
- fascism:0 "Arabism"
- fascism_noun:0 "Pan-Arabic Society"
- fascism_desc:0 "Sharia State"
- #Democratic Reformists
- shia:0 "Shia Capliphacy"
- shia_noun:0 "Shia Capliphate"
- shia_desc:0 "Sharia State"
- #Democratic Liberalist
- democratic:0 "Theocratic"
- democratic_noun:0 "Christian Theocracy"
- democratic_desc:0 "Theocratic Regime"
- #Conservative Traditionalist
- democratic:0 "Theocratic"
- democratic_noun:0 "Christian Theocracy"
- democratic_desc:0 "Theocratic Regime"
+ #Fascism
+ fascism:0 "Fascist"
+ fascism_noun:0 "Fascism"
+ fascism_desc:0 "Totalitarian Regime"
+ #Socialism
+ communism:0 "Socialist"
+ communism_noun:0 "Socialism"
+ communism_desc:0 "Totalitarian Regime"
+ #Despotism
+ despotism:0 "Despotist"
+ despotism_noun:0 "Despotism"
+ despotism_desc:0 "Totalitarian Regime"
+ #Democratic
+ democratic:0 "Democratic"
+ democratic_noun:0 "Democratic"
+ democratic_desc:0 "Democratic Regime"
  #National Revivalist
- democratic:0 "Theocratic"
- democratic_noun:0 "Christian Theocracy"
- democratic_desc:0 "Theocratic Regime"
- #Chauvinist
- chauvinist:0 "Chauvinist"
- chauvinist_noun:0 "Chauvinist State"
- chauvinist_desc:0 "Racial & National Supremacists"
+ national_revivalism:0 "Pan-European Revivalist"
+ national_revivalism_noun:0 "Pan-European Revivalism"
+ national_revivalism_desc:0 "European Crusaders"
  #########################################
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."

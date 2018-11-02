@@ -794,6 +794,7 @@
  STATE_792:0 "Genoa"
  STATE_793:0 "Aosta"
  STATE_794:0 "Dauphine"
+<<<<<<< HEAD
  STATE_795:0 "Nice"
  STATE_796:0 "Northern Peshawar"
  STATE_797:0 "Badakhshan"
@@ -801,3 +802,5 @@
  STATE_799:0 "Kandahar"
  STATE_800:0 "Chaghcharan"
  STATE_801:0 "Mazar-i-Sharif"
+=======
+>>>>>>> 45624ce6ea133a942ef507f9b3d3d6d91e33c1c2
