@@ -47,27 +47,9 @@ set_technology = {
 
 	add_political_power = 899
 
-	#adding ministers
 	add_ideas = {
-		#laws
-		partial_economic_mobilisation
+
 	}
-
-	complete_national_focus = FRA_metropolitan_france
-	complete_national_focus = FRA_industrial_expansion
-	complete_national_focus = FRA_initiate_government_reform
-	complete_national_focus = FRA_support_status_quo
-	complete_national_focus = FRA_go_with_britain
-	complete_national_focus = FRA_navy_focus
-	complete_national_focus = FRA_improved_screen_ships
-	complete_national_focus = FRA_air_focus
-	complete_national_focus = FRA_metropolitan_france
-	complete_national_focus = FRA_algerie_france
-	complete_national_focus = FRA_colonial_industry
-	complete_national_focus = FRA_colonial_military_factories
-
-	give_guarantee = POL
-	ENG = { add_to_faction = FRA }
 
 	oob = "FRA_1939"
 	set_technology = {
@@ -136,11 +118,12 @@ set_convoys = 300
 set_politics = {
 
 	parties = {
-		democratic = { 
+		
+		revivalism = { 
 			popularity = 30
 		}
 
-		fascism = {
+		democratic = {
 			popularity = 70
 		}
 		
@@ -149,7 +132,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -165,7 +148,7 @@ create_country_leader = {
 	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
 	picture = "Paul_Painleve.tga"
 	expire = "1965.1.1"
-	ideology = democratic_liberalist
+	ideology = liberal
 	traits = {
 		
 	}

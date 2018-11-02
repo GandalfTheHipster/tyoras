@@ -7,21 +7,6 @@ add = 10
 tag = SAU 
 } 
 } 
-#Focus for Antakya Excursion
-focus = { 
-id = SAU_antakyaexcursion
-icon = GFX_goal_generic_occupy_states_ongoing_war
-x = 18
-y = 4
-cost = 10
-available_if_capitulated = yes 
-prerequisite = { focus = SAU_theottomanmenace } 
-ai_will_do = { 
- factor = 1
- } 
-
- } 
-
 #Focus for Diplomatic Visit to Cairo
 focus = { 
 id = SAU_diplomaticvisittocairo
@@ -161,12 +146,11 @@ ai_will_do = {
 focus = { 
 id = SAU_thegreatislamicunion
 icon = GFX_goal_generic_national_unity
-x = 21
+x = 12
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = SAU_thestate focus = SAU_thechurch } 
-mutually_exclusive = { focus = SAU_greaterarabia focus = SAU_theottomanmenace focus = SAU_ }ai_will_do = { 
+ai_will_do = { 
  factor = 1
  } 
 
@@ -211,27 +195,6 @@ y = 3
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = SAU_thestate } 
-mutually_exclusive = { focus = SAU_thegreatislamicunion } 
-mutually_exclusive = { focus = SAU_ } 
-mutually_exclusive = { focus = SAU_thegreatislamicunion } 
-mutually_exclusive = { focus = SAU_thegreatislamicunion } 
-ai_will_do = { 
- factor = 1
- } 
-
- } 
-
-#Focus for The Ottoman Menace!
-focus = { 
-id = SAU_theottomanmenace
-icon = GFX_goal_generic_secret_weapon
-x = 18
-y = 3
-cost = 10
-available_if_capitulated = yes 
-prerequisite = { focus = SAU_thechurch focus = SAU_thestate } 
-mutually_exclusive = { focus = SAU_thegreatislamicunion } 
-mutually_exclusive = { focus = SAU_thegreatislamicunion } 
 ai_will_do = { 
  factor = 1
  } 
@@ -247,7 +210,6 @@ y = 3
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = SAU_thechurch focus = SAU_theunion } 
-mutually_exclusive = { focus = SAU_arabottomannegotiation } 
 ai_will_do = { 
  factor = 1
  } 
@@ -258,13 +220,11 @@ ai_will_do = {
 focus = { 
 id = SAU_arabottomannegotiation
 icon = GFX_goal_generic_improve_relations
-x = 11
+x = 20
 y = 3
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = SAU_thechurch focus = SAU_theunion } 
-mutually_exclusive = { focus = SAU_sunniislamseperation } 
-mutually_exclusive = { focus = SAU_sunniislamseperation } 
 ai_will_do = { 
  factor = 1
  } 

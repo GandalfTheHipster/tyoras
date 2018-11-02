@@ -86,7 +86,7 @@ conservative = {
 		can_be_boosted = no
 	}
 	
-	national_revivalism = {
+	revivalism = {
 		types = {
 
 		european = {

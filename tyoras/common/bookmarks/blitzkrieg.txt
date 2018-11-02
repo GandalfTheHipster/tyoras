@@ -17,7 +17,7 @@ bookmarks = {
 
 			}
 		}
-		"SOV"={
+		"GOL"={
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
@@ -47,7 +47,7 @@ bookmarks = {
 
 			}
 		}
-		"FRA"={
+		"AND"={
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {

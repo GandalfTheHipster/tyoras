@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 		
 		"CHI"={
-			history = "FRA_GATHERING_STORM_DESC"
+			history = "CHI_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 
@@ -17,8 +17,8 @@ bookmarks = {
 
 			}
 		}
-		"SOV"={
-			history = "USA_GATHERING_STORM_DESC"
+		"GOL"={
+			history = "GOL_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 
@@ -28,7 +28,7 @@ bookmarks = {
 			}
 		}
 		"SAU"={
-			history = "ENG_GATHERING_STORM_DESC"
+			history = "SAU_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
 
@@ -38,7 +38,7 @@ bookmarks = {
 			}
 		}
 		"RAJ"={
-			history = "GER_GATHERING_STORM_DESC"
+			history = "RAJ_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 
@@ -47,8 +47,8 @@ bookmarks = {
 
 			}
 		}
-		"FRA"={
-			history = "ITA_GATHERING_STORM_DESC"
+		"AND"={
+			history = "AND_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
 
@@ -58,7 +58,7 @@ bookmarks = {
 			}		
 		}
 		"USA"={
-			history = "JAP_GATHERING_STORM_DESC"
+			history = "USA_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
 
@@ -68,7 +68,7 @@ bookmarks = {
 			}			
 		}
 		"ENG"={
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 

@@ -208,23 +208,23 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 20
+			popularity = 61
 		}
 
-		fascism = {
-			popularity = 60
+		revivalism = {
+			popularity = 39
 		}
 		
-		communism = {
-			popularity = 20
-			banned = yes #default is no
+		socialism = {
+			popularity = 0
+			banned = yes
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1933.3.5"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 
 }
 
@@ -239,7 +239,7 @@ create_country_leader = {
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "Ernst_Rohm.tga"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = conservative
 	traits = {
 		dictator
 	}
@@ -250,7 +250,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Portrait_Germany_Konrad_Adenauer.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = liberal
 	traits = {
 	}
 }

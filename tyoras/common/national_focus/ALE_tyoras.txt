@@ -4,18 +4,18 @@ country = {
 factor = 0 
 modifier = { 
 add = 10 
-tag = GER 
+tag = ALE 
 } 
 } 
 #Focus for Asl Alaitihad Motion
 focus = { 
-id = GER_aslalaitihadmotion
+id = ALE_aslalaitihadmotion
 icon = GFX_goal_generic_national_unity
 x = 4
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = GER_thechurch focus = GER_theunion } 
+prerequisite = { focus = ALE_thechurch focus = ALE_theunion } 
 ai_will_do = { 
  factor = 1
  } 
@@ -24,13 +24,13 @@ ai_will_do = {
 
 #Focus for Operation Alaitihad
 focus = { 
-id = GER_operationalaitihad
+id = ALE_operationalaitihad
 icon = GFX_goal_generic_occupy_states_ongoing_war
 x = 13
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = GER_thestate } 
+prerequisite = { focus = ALE_thestate } 
 ai_will_do = { 
  factor = 1
  } 
@@ -39,13 +39,13 @@ ai_will_do = {
 
 #Focus for The State
 focus = { 
-id = GER_thestate
+id = ALE_thestate
 icon = GFX_focus_ger_revive_kaiserreich
 x = 13
 y = 2
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = GER_germanicdisintergration } 
+prerequisite = { focus = ALE_germanicdisintergration } 
 ai_will_do = { 
  factor = 1
  } 
@@ -54,13 +54,13 @@ ai_will_do = {
 
 #Focus for The Union
 focus = { 
-id = GER_theunion
+id = ALE_theunion
 icon = GFX_focus_generic_home_defense
 x = 1
 y = 2
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = GER_germanicdisintergration } 
+prerequisite = { focus = ALE_germanicdisintergration } 
 ai_will_do = { 
  factor = 1
  } 
@@ -69,7 +69,7 @@ ai_will_do = {
 
 #Focus for The Impending Doom
 focus = { 
-id = GER_theimpendingdoom
+id = ALE_theimpendingdoom
 icon = GFX_goal_generic_alliance
 x = 7
 y = 0
@@ -83,13 +83,13 @@ ai_will_do = {
 
 #Focus for Germanic Disintergration
 focus = { 
-id = GER_germanicdisintergration
+id = ALE_germanicdisintergration
 icon = GFX_focus_rom_abdicate
 x = 7
 y = 1
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = GER_theimpendingdoom } 
+prerequisite = { focus = ALE_theimpendingdoom } 
 ai_will_do = { 
  factor = 1
  } 
@@ -98,13 +98,13 @@ ai_will_do = {
 
 #Focus for The Church
 focus = { 
-id = GER_thechurch
+id = ALE_thechurch
 icon = GFX_focus_YUG_banovina_of_croatia
 x = 7
 y = 2
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = GER_germanicdisintergration } 
+prerequisite = { focus = ALE_germanicdisintergration } 
 ai_will_do = { 
  factor = 1
  } 
@@ -113,13 +113,13 @@ ai_will_do = {
 
 #Focus for Complete Disintegration of Al-Alemand
 focus = { 
-id = GER_completedisintegrationofalalemand
+id = ALE_completedisintegrationofalalemand
 icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
 x = 7
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = GER_thechurch } 
+prerequisite = { focus = ALE_thechurch } 
 ai_will_do = { 
  factor = 1
  } 
