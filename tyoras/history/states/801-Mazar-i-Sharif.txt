@@ -1,0 +1,18 @@
+state={
+	id=801
+	name="STATE_801"
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = AFG
+
+	}
+	provinces={
+		7584 10852 12248 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

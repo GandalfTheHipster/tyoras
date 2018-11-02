@@ -20,6 +20,27 @@ ideologies = {
 		can_be_boosted = no
 
 	}
+
+	revolutionairist = {
+		types = {
+			revolutionairist_subtype = {}
+		}
+		dynamic_faction_names = {
+		}
+		color = { 70 5 15 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.80
+		}
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
 	
 	democratic_reformists = {
 		types = {

@@ -1,0 +1,16 @@
+state={
+	id=796
+	name="STATE_796"
+	history={
+		owner = KAS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KAS
+	}
+	provinces={
+		2084 4558 12763 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
