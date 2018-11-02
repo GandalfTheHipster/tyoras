@@ -1,14 +1,29 @@
 ideologies = {
-	communalist = {
+
+	socialism = {
 		types = {
+			marxism = {
+			}
+			
+			leninism = {
+			}
+			
+			stalinism = {
+			}
+			
+			anti_revisionism = {
+			}
+			
+			anarchist_communism = {
+			}
 		}
 		dynamic_faction_names = {
 
 		}
-		color = { 45 5 15 }
+		color = { 166 30 34 }
 		rules = {
 			can_force_government = no
-			can_puppet = no
+			can_puppet = yes
 			can_join_factions = no
 			can_send_volunteers = yes
 		}		
@@ -21,29 +36,15 @@ ideologies = {
 
 	}
 	
-	democratic_reformists = {
+	democratic = {
 		types = {
-			democratic_reformist_subtype = {}
-		}
-		dynamic_faction_names = {
-		}
-		color = { 233 58 58 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.80
-		}
-		ai_neutral = yes			
-		can_be_boosted = no
-	}
-	
-	democratic_liberalist = {
-		types = {
+
+conservative = {
+			}
+
+			liberal = {
+			}
+
 		}
 		dynamic_faction_names = {
 		}
@@ -60,29 +61,10 @@ ideologies = {
 		}
 		ai_neutral = yes		
 		can_be_boosted = no
-	}
 
-	conservative_traditionalist  = {
-		types = {
-		}
-		dynamic_faction_names = {
-		}
-		color = { 0 0 255 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.80
-		}
-		ai_neutral = yes		
-		can_be_boosted = no
 	}
 	
-	despot = {
+	despotism = {
 		types = {
 		    despot_subtype= {}
             absolute_monarch = {}
@@ -104,7 +86,7 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	national_revivalist = {
+	national_revivalism = {
 		types = {
 
 		european = {
@@ -113,7 +95,7 @@ ideologies = {
 		}
 		dynamic_faction_names = {
 		}
-		color = { 45 45 45 }
+		color = { 118 27 89 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -127,19 +109,43 @@ ideologies = {
 		ai_neutral = yes		
 		can_be_boosted = no
 	}
-	
-	chauvinist = {
+
+	tengrism = {
 		types = {
 
-		racial = {
+		mongol = {
 			}
 
-		nationalistic = {
+		}
+		dynamic_faction_names = {
+
+		}
+		color = { 255 237 188 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.80
+		}
+		ai_neutral = yes	
+		can_be_boosted = no
+
+	}
+
+fascism = {
+		types = {
+			
+			fascism_ideology = {
 			}
+			
 		}
 		dynamic_faction_names = {
 		}
-		color = { 142 57 0 }
+		color = { 100 69 26 }
 		rules = {
 			can_force_government = no
 			can_puppet = no

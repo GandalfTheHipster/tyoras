@@ -7,12 +7,12 @@ state={
 	state_category = town
 
 	history={
-		owner = FRA
+		owner = AND
 		
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = FRA
+		add_core_of = AND
 	}
 
 	provinces={

@@ -11,12 +11,12 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = GOL
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = SOV
+		add_core_of = GOL
 		#add_core_of = KAZ
 	}
 

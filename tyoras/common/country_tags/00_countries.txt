@@ -1,8 +1,8 @@
-GER	= "countries/Germany.txt"
+ALE	= "countries/Alemand.txt"
 ENG = "countries/United Kingdom.txt"
-SOV = "countries/Soviet Union.txt"
+GOL = "countries/Horde.txt"
 SWE	= "countries/Sweden.txt"
-FRA	= "countries/France.txt"
+AND	= "countries/Andalus.txt"
 LUX	= "countries/Luxemburg.txt"
 BEL	= "countries/Belgium.txt"
 HOL	= "countries/Holland.txt"
@@ -133,10 +133,3 @@ KRO = "countries/Korsika.txt"
 
 #American States
 SUB = "countries/Sabaku.txt"
-
-#Khanates
-BUK = "countries/Bukhara.txt"
-
-#Indian Minors
-KAS = "countries/Kashmir.txt"
-SIH = "countries/Sikh.txt"

@@ -11,7 +11,7 @@ state={
 	state_category = city
 
 	history={
-		owner = FRA
+		owner = AND
 		victory_points = {
 			9737 20
 		}
@@ -25,7 +25,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = FRA
+		add_core_of = AND
 	}
 
 	provinces={

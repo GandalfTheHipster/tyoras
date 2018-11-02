@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = FRA
+		owner = AND
 		victory_points = {
 			3552 20
 		}
@@ -33,7 +33,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = FRA
+		add_core_of = AND
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5
