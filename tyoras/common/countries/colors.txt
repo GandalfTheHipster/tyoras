@@ -74,7 +74,7 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 118 0 0 }
+	color = rgb { 160 0 0 }
 	color_ui = rgb { 118 0 0 }
 }
 GRE = {
@@ -114,7 +114,7 @@ HUN = {
 	color_ui = rgb { 255 164 127 }
 }
 AFG = {
-	color = rgb { 255 178 127 }
+	color = rgb { 64 160 167 }
 	color_ui = rgb { 83 208 217 }
 }
 ARG = {
@@ -299,8 +299,8 @@ SLO = {
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
-	color = rgb { 236 88 0 }
-	color_ui = rgb { 200  10  10 }
+	color = rgb { 130 40 10 }
+	color_ui = rgb { 200 10 10 }
 }
 
 CRO = {
@@ -545,8 +545,8 @@ WAL = {
 	color_ui = rgb { 35 101 222 }
 }
 BOS = {
-    color = rgb { 67 158 34 }
-	color_ui = rgb { 67 158 34 }
+    color = rgb { 20 20 90 }
+	color_ui = rgb { 20 20 80 }
 }
 
 CRI = {
@@ -585,4 +585,17 @@ TIC = {
 	color = rgb { 247 133 39 }
 	color_ui = rgb { 247 133 39 }
 }
+SIH = {
+	color = rgb { 247 133 39 }
+	color_ui = rgb { 247 133 39 }
+}
+KAS = {
+	color = rgb { 153 0 120 }
+	color_ui = rgb { 153 0 120 }
+}
+SAU = {
+	color = rgb { 79 14 9 }
+	color_ui = rgb { 79 14 9 }
+}
+
 

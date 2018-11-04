@@ -1,17 +1,15 @@
 state={
-	id=795
-	name="STATE_795"
-
+	id=796
+	name="STATE_796"
 	history={
-		owner = RHO
+		owner = KAS
 		buildings = {
-			infrastructure = 7
+			infrastructure = 2
 		}
-		add_core_of = RHO
-
+		add_core_of = KAS
 	}
 	provinces={
-		3959 9909 
+		2084 4558 12763 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
