@@ -4,8 +4,8 @@ oob = "ENG_1936"
 
 set_research_slots = 4
 
-set_stability = 0.6
-set_war_support = 0.1
+set_stability = 0.9
+set_war_support = 0.7
 
 # Starting tech
 set_technology = {
@@ -57,45 +57,8 @@ set_convoys = 800
 	
 	#adding ministers
 	add_ideas = {
-		ENG_ernest_bevin
-		bernard_montgomery
-		rsaf_enfield
-		archibald_wavell
-		charles_portal
-		english_electric		
 
-		#laws
-		partial_economic_mobilisation
-		limited_conscription
-
-		ENG_george_vi
 	}
-
-	
-create_country_leader = {
-	name = "Cosmo Gordon Lang"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-	picture = "Cosmo_Gordon_Lang.tga"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
-	remove_ideas = george_v #Dead
-
-	complete_national_focus = limited_rearmament_focus
-	complete_national_focus = air_defense_focus
-	complete_national_focus = radar_focus
-	complete_national_focus = shadow_scheme_focus
-	complete_national_focus = uk_empire_focus
-	complete_national_focus = uk_service_focus
-	complete_national_focus = uk_colonial_focus
-	complete_national_focus = uk_mediterranean_focus
-	complete_national_focus = uk_asia_focus
-	complete_national_focus = uk_commonwealth_focus
-
-	give_guarantee = POL
 	
 	oob = "ENG_1939"
 	set_technology = {
@@ -173,23 +136,23 @@ create_country_leader = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		revivalism = { 
 			popularity = 97
 		}
 
-		fascism = {
+		democratic = {
 			popularity = 2
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 1
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = revivalism
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
+	elections_allowed = no
 }
 
 
@@ -202,18 +165,13 @@ add_to_faction = IRE
 add_to_faction = NOR
 add_to_faction = SWE
 
-#give_guarantee = CZE
-
-# Order matters - here Chamberlain becomes starting leader
-
 create_country_leader = {
-	name = "Cosmo Gordon Lang"
+	name = "Pople Cosmo I"
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
 	picture = "Cosmo_Gordon_Lang.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = european
 	traits = {
-		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
 	}
 }
 
@@ -223,7 +181,7 @@ create_country_leader = {
 	desc = "POLITICS_STANLEY_BALDWIN_DESC"
 	picture = "Cosmo_Gordon_Lang.tga"
 	expire = "1938.1.1"
-	ideology = liberalism
+	ideology = liberal
 	traits = {
 		
 	}

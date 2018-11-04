@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = RAJ
+		owner = IND
 		victory_points = {
 			12137 1
 		}
@@ -15,7 +15,7 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 		}
-		add_core_of = RAJ
+		add_core_of = IND
 
 	}
 

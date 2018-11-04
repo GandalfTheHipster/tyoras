@@ -25,11 +25,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 2
+			popularity = 85
 		}
 
 		fascism = {
-			popularity = 17
+			popularity = 15
 		}
 		
 		communism = {
@@ -37,11 +37,11 @@ set_politics = {
 		}
 
 		neutrality = {
-			popularity = 80
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -60,7 +60,7 @@ create_country_leader = {
 	desc = "POLITICS_LORD_LINLITHGOW_DESC"
 	picture = "Mohammad_Ali_Jinnah.tga"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = liberal
 	traits = {
 		
 	}
