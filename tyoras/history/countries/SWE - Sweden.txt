@@ -93,57 +93,47 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 75
+		revivalism = { 
+			popularity = 97
 		}
 
-		neutrality = {
-			popularity  = 14
-		}
-
-		communism = {
-			popularity = 8
-		}
-
-		fascism = {
-			popularity = 3
+		democratic = {
+			popularity = 2
 		}
 		
+		socialism = {
+			popularity = 1
+		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1932.9.18"
+	ruling_party = revivalism
+	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 1939.1.1 = {
 	set_politics = {
 
-		parties = {
-			democratic = { 
-				popularity = 85
-			}
+	parties = {
+		revivalism = { 
+			popularity = 97
+		}
 
-			neutrality = {
-				popularity  = 12
-			}
-
-			communism = {
-				popularity = 4
-			}
-
-			fascism = {
-				popularity = 1
-			}
-			
+		democratic = {
+			popularity = 2
 		}
 		
-		ruling_party = democratic
-		last_election = "1936.9.20"
-		election_frequency = 48
-		elections_allowed = yes
+		socialism = {
+			popularity = 1
+		}
 	}
+	
+	ruling_party = revivalism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+ }
 }
 
 set_convoys = 25
@@ -155,7 +145,7 @@ create_country_leader = {
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
 	picture = "Adam_Stefan_Sapieha.tga"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = european
 	traits = {
 		#
 	}

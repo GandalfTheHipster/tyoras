@@ -7,12 +7,12 @@ state={
 		rubber=3 # was: 4
 	}
 	history={
-		owner = NIC
+		owner = COG
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = NIC
+		add_core_of = COG
 	}
 
 	provinces={

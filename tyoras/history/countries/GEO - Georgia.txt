@@ -2,77 +2,131 @@
 
 oob = "GEO_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 
-# Starting tech
+set_stability = 0.9
+set_war_support = 0.1
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
-	tech_military_police = 1
-	tech_mountaineers = 1
-	motorised_infantry = 1
-	paratroopers = 1
-	gw_artillery = 1
-	gwtank = 1
-	basic_light_tank = 1  # PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
 	early_fighter = 1
-	fighter1 = 1
 	early_bomber = 1
-	strategic_bomber1 = 1
-	naval_bomber1 = 1
-	early_submarine = 1
-	basic_submarine = 1
 	early_destroyer = 1
-	early_light_cruiser = 1
+	early_submarine = 1
 	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
-	transport = 1
-	mass_assault = 1
-	fleet_in_being = 1
+	tech_recon = 1
 }
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	oob = "GEO_1939"
+	set_technology = {
+		gw_artillery = 1
+		interwar_artillery = 1
+		interwar_antiair = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		submarine_operations = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_processing = 1
+		improved_oil_processing = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_convoys = 80		# biggest merchant marine in the world
+set_stability = 0.7
 
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 25
+		revivalism = { 
+			popularity = 97
+		}
+
+		democratic = {
+			popularity = 2
 		}
 		
-		communism = {
-			popularity = 75
+		socialism = {
+			popularity = 1
 		}
+	}
+	
+	ruling_party = revivalism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+1939.1.1 = {
+	set_politics = {
+
+	parties = {
+		revivalism = { 
+			popularity = 97
+		}
+
+		democratic = {
+			popularity = 2
+		}
+		
+		socialism = {
+			popularity = 1
+		}
+	}
+	
+	ruling_party = revivalism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
+
+create_country_leader = {
+	name = "Johan Nygaardsvold"
+	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
+	picture = "Portrait_Norway_Johan_Nygaardsvold.dds"
+	expire = "1965.1.1"
+	ideology = european
+	traits = {
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Noe Zhordania"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = liberalism
+	name = "Vidkun Quisling"
+	desc = "POLITICS_VIDKUN_QUISLING_DESC"
+	picture = "Portrait_Norway_Vidkun_Quisling.dds"
+	expire = "1965.1.1"
+	ideology = nazism
 	traits = {
-		
+		#
 	}
 }
-
-create_country_leader = {
-	name = "Kandid Charkviani"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-#couldnt find anything else, the commies simply forced everyone else into exile
-
-
-

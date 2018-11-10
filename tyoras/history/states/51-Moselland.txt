@@ -2,14 +2,10 @@
 state={
 	id=51
 	name="STATE_51"
-	manpower = 6144743
 	resources={
-		steel=30 # was: 54
+		steel=30.000
 	}
 
-
-	state_category = metropolis
-	
 	history={
 		owner = ALE
 		victory_points = {
@@ -26,22 +22,24 @@ state={
 
 		}
 		add_core_of = ALE
-
 		1939.1.1 = {
 			buildings = {
 				air_base = 6
 				radar_station = 1
+
 			}
+
 		}
-	
-	
 		1936.3.7 = {
 
 		}
+
 	}
 
 	provinces={
-		529 587 3444 3512 3547 6469 6570 9482 9522 
+		529 6469 6570 9482 
 	}
-	
+	manpower=6144743
+	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

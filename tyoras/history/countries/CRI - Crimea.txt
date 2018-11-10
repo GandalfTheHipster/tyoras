@@ -26,29 +26,24 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		despotism = {
+			popularity = 87
 		}
-
 		fascism = {
-			popularity = 0
-			banned = yes
+			popularity = 10
 		}
-		
-		communism = {
-			popularity = 0
-			banned = yes #default is no
+		democratic = {
+			popularity = 3
 		}
-		
-		neutrality = { 
-			popularity = 100
+		revivalism = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1935.2.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 20

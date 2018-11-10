@@ -4,10 +4,6 @@ oob = "NOR_1936"
 
 set_research_slots = 3
 
-add_ideas = {
-	limited_conscription
-}
-
 set_stability = 0.9
 set_war_support = 0.1
 set_technology = {
@@ -81,51 +77,47 @@ set_stability = 0.7
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 96
+		revivalism = { 
+			popularity = 97
 		}
 
-		fascism = {
+		democratic = {
 			popularity = 2
 		}
 		
-		communism = {
-			popularity = 2
+		socialism = {
+			popularity = 1
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1933.10.16"
-	election_frequency = 36
-	elections_allowed = yes
+	ruling_party = revivalism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 1939.1.1 = {
 	set_politics = {
 
-		parties = {
-			democratic = { 
-				popularity = 84
-			}
+	parties = {
+		revivalism = { 
+			popularity = 97
+		}
 
-			fascism = {
-				popularity = 2
-			}
-			
-			communism = {
-				popularity = 2
-			}
-
-			neutrality = {
-				popularity = 12
-			}
+		democratic = {
+			popularity = 2
 		}
 		
-		ruling_party = democratic
-		last_election = "1936.10.19"
-		election_frequency = 36
-		elections_allowed = yes
+		socialism = {
+			popularity = 1
+		}
 	}
+	
+	ruling_party = revivalism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
 }
 
 create_country_leader = {
@@ -133,7 +125,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
 	picture = "Portrait_Norway_Johan_Nygaardsvold.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = european
 	traits = {
 		#
 	}

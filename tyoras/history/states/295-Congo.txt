@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = COG
+		owner = IND
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -25,7 +25,7 @@ state={
 		victory_points = {
 			5117 3 
 		}
-			add_core_of = COG
+			add_core_of = IND
 	}
 
 	provinces={

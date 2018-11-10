@@ -2,24 +2,24 @@
 state={
 	id=542
 	name="STATE_542"
-	manpower = 234000
-	
-	state_category = wasteland
-	
 	resources={
-		chromium=90 # was: 168
+		chromium=90.000
 	}
 
 	history={
 		owner = IND
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = IND
 
 	}
 
 	provinces={
-		1580 8214 10525 12940 12963 
+		1580 1688 2213 5106 5217 5231 8214 10400 10525 10668 12648 12940 12963 
 	}
+	manpower=234000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }
