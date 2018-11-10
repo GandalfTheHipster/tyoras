@@ -24,35 +24,6 @@ set_technology = {
 }
 
 1939.1.1 = {
-	
-	if = {
-		limit = {
-			has_dlc = "Poland: United and Ready"
-		}
-		complete_national_focus = POL_central_region_strategy
-		complete_national_focus = POL_the_four_year_plan
-		complete_national_focus = POL_additional_research_slot1
-		complete_national_focus = POL_prepare_for_the_next_war
-		complete_national_focus = POL_standardisation_of_equipment
-		complete_national_focus = POL_defensive_focus
-
-		unlock_national_focus = POL_expansion_of_new_towns
-		unlock_national_focus = POL_fill_the_railways_gaps
-		unlock_national_focus = POL_start_central_industrial_region		
-		unlock_national_focus = POL_national_defence_fund
-		unlock_national_focus = POL_warsaw_main_railway_station
-		unlock_national_focus = POL_invest_in_the_old_polish_region
-		
-		unlock_national_focus = POL_the_defence_of_poland
-		unlock_national_focus = POL_romanian_bridgehead_strategy
-		unlock_national_focus = POL_silesia_fortified_area
-		unlock_national_focus = POL_hel_fortified_area
-		unlock_national_focus = POL_modernising_the_cavalry
-		unlock_national_focus = POL_strengthen_the_polish_state
-		
-		unlock_national_focus = POL_air_base_expansion
-		unlock_national_focus = POL_develop_polish_ship_building
-	}
 
 	add_political_power = 1198
 	
@@ -127,79 +98,52 @@ set_technology = {
 }
 
 
-set_convoys = 10
-
-# DIPLOMACY
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = GXC
-		autonomous_state = autonomy_colony
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = SIK
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	else = {
-	}
-}
+set_convoys = 46
 
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 18
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 15
+			popularity = 5
 		}
 		
-		communism = {
-			popularity = 2
-		}
-		
-		neutrality = { 
-			popularity = 65
+		tengrism = {
+			popularity = 95
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1935.9.8"
-	election_frequency = 36
+	ruling_party = tengrism
+	last_election = "1933.7.1"
+	election_frequency = 48
 	elections_allowed = no
 }
 
 1939.1.1 = {
 	set_politics = {
 
-		parties = {
-			democratic = { 
-				popularity = 13
-			}
+	parties = {
+		revivalism = { 
+			popularity = 20
+		}
 
-			fascism = {
-				popularity = 7
-			}
-			
-			communism = {
-				popularity = 2
-			}
-			
-			neutrality = { 
-				popularity = 78
-			}
+		democratic = {
+			popularity = 15
 		}
 		
-		ruling_party = neutrality
-		last_election = "1935.9.8"
-		election_frequency = 36
-		elections_allowed = no
+		tengrism = {
+			popularity = 65
+		}
 	}
+	
+	ruling_party = tengrism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 }
 
 create_country_leader = {
@@ -207,7 +151,7 @@ create_country_leader = {
 	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
 	picture = "Maximilian_Kolbe.tga"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = mongol
 	traits = {
 		#
 	}

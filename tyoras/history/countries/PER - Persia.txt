@@ -17,44 +17,36 @@ set_convoys = 40
 set_politics = {
 
 	parties = {
-		communalist = {
+		democratic = { 
 			popularity = 0
 		}
-		revolutionairist = {
-			popularity = 1
+
+		fascism = {
+			popularity = 100
 		}
-		democratic_reformists = {
-			popularity = 3
+		
+		communism = {
+			popularity = 0
+			#banned = no #default is no
 		}
-		democratic_liberalist = {
-			popularity = 6
-		}
-		conservative_traditionalist = {
-			popularity = 10
-		}
-		despot = {
-			popularity = 72
-		}
-		national_revivalist = {
-			popularity = 2
-		}
-		chauvanist = {
-			popularity = 6
+		
+		neutrality = { 
+			popularity = 0
 		}
 	}
 	
-	ruling_party = despot
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = ""
+	name = "Abdolhossein Teymourtash"
 	desc = ""
-	picture = ""
+	picture = "abdolhossein_teymourtash.tga"
 	expire = "1965.1.1"
-	ideology = absolute_monarch
+	ideology = fascism_ideology
 	traits = {
 		#
 	}

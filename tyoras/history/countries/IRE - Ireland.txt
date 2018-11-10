@@ -7,6 +7,38 @@ set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	#improved_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	trench_warfare = 1
+
+	transport = 1
+	fleet_in_being = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
 }
 
 set_convoys = 10
@@ -15,37 +47,60 @@ set_convoys = 10
 
 	add_political_power = 1198
 	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
 	oob = "IRE_1939"
-	set_technology = {
-		gw_artillery = 1
-		interwar_antiair = 1
+set_technology = {
+		fighter1 = 1
+		fighter2 = 1
+		heavy_fighter1 = 1
+		heavy_fighter2 = 1
+		CAS2 = 1
+		naval_bomber2 = 1
+		tactical_bomber1 = 1
+		tactical_bomber2 = 1
+		strategic_bomber1 = 1
+		cv_CAS1 = 1
+		cv_fighter1 = 1
+		improved_light_tank = 1
+		basic_medium_tank = 1
+		basic_heavy_tank = 1
+		interwar_artillery = 1
+		interwar_antitank = 1
 		infantry_weapons2 = 1
+		support_weapons = 1
+		support_weapons2 = 1
+		basic_submarine = 1
+		improved_submarine = 1
+		improved_destroyer = 1
+		basic_light_cruiser = 1
+		improved_light_cruiser = 1
+		basic_battleship = 1
+		basic_carrier = 1
+		improved_carrier = 1
 
 		#doctrines
+		#Air
 		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
+		home_defence = 1
+		naval_strike_tactics = 1
+
+			grand_battle_plan = 1
+
+		prepared_defense = 1
 		battlefleet_concentration = 1
+		subsidiary_carrier_role = 1
 		convoy_sailing = 1
+		convoy_escorts = 1
+		submarine_operations = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
+		decimetric_radar = 1
 		mechanical_computing = 1
 		computing_machine = 1
+		basic_encryption = 1
+		basic_decryption = 1
 
 		#industry
 		basic_machine_tools = 1
@@ -56,62 +111,74 @@ set_convoys = 10
 		improved_oil_processing = 1
 		construction1 = 1
 		construction2 = 1
+		construction3 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
+		dispersed_industry3 = 1
 	}
 }
 
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 98
+		revivalism = { 
+			popularity = 97
 		}
 
-		fascism = {
-			popularity = 1
+		democratic = {
+			popularity = 2
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 1
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1933.1.24"
+	ruling_party = revivalism
+	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 98
-			}
-
-			fascism = {
-				popularity = 1
-			}
-			
-			communism = {
-				popularity = 1
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1938.6.17"
-		election_frequency = 48
-		elections_allowed = yes
-	}
+	elections_allowed = no
 }
 create_country_leader = {
 	name = "Richard Mulcahy"
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
 	picture = "Richard_Mulcahy.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = european
+	traits = {
+		#
+	}
+}
+
+
+1939.1.1 = {
+	set_politics = {
+
+	parties = {
+		revivalism = { 
+			popularity = 97
+		}
+
+		democratic = {
+			popularity = 2
+		}
+		
+		socialism = {
+			popularity = 1
+		}
+	}
+	
+	ruling_party = revivalism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Richard Mulcahy"
+	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
+	picture = "Richard_Mulcahy.tga"
+	expire = "1965.1.1"
+	ideology = european
 	traits = {
 		#
 	}
@@ -122,7 +189,7 @@ create_country_leader = {
 	desc = "POLITICS_EOIN_ODUFFY_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = liberal
 	traits = {
 		#
 	}

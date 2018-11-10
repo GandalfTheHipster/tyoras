@@ -106,7 +106,7 @@ FIN = {
 	color_ui = rgb { 255 255 255 }
 }
 IRE = {
-	color = rgb { 255 172 172 }
+	color = rgb { 22 155 98 }
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
@@ -138,7 +138,7 @@ BRA = {
 	color_ui = rgb { 99 189 82 }
 }
 CAN = {
-	color = rgb { 255 172 172 }
+	color = rgb { 205 0 25 }
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
@@ -170,7 +170,7 @@ ETH = {
 	color_ui = rgb { 198 169 248 }
 }
 GUA = {
-	color = rgb { 255 172 172 } 
+	color = rgb { 0 101 189 } 
 	color_ui = rgb { 72 49 112 }
 }
 HON = {
