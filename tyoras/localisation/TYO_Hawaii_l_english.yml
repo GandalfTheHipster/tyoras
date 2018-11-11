@@ -1,0 +1,18 @@
+﻿l_english:
+ HAW_socialist:0 "Hawaiian Commune"
+ HAW_socialist_DEF:0 "The Hawaiian Commune"
+ HAW_democratic:0 "Hawaii"
+ HAW_democratic_DEF:0 "Hawaii"
+ HAW_despotism:0 "Hawaiian Kingdom"
+ HAW_despotism_DEF:0 "The Kingdom of Hawaii"
+ HAW_fascist:0 "Hawaiian Empire"
+ HAW_fascist_DEF:0 "The Hawaiian Empire"
+ HAW_revivalism:0 "Hawaii"
+ HAW_revivalism_DEF:0 "Hawaii"
+
+ HAW_socialist_ADJ:0 "Hawaiian"
+ HAW_democratic_ADJ:0 "Hawaiian"
+ HAW_fascist_ADJ:0 "Hawaiian"
+ HAW_despotism_ADJ:0 "Hawaiian"
+ HAW_revivalism_ADJ:0 "Hawaiian"
+ HAW_democratic_ADJ:0 "Hawaiian"

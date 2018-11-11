@@ -23,54 +23,6 @@ set_convoys = 40
 	set_stability = 0.5
 	set_war_support = 0.7
 	
-	if = {
-		limit = { has_dlc = "Waking the Tiger" }
-		complete_national_focus = CHI_unified_industrial_planning
-		complete_national_focus = CHI_mission_to_germany
-		complete_national_focus = CHI_rural_reconstruction_movement
-		complete_national_focus = CHI_british_cooperation
-		unlock_national_focus = CHI_fighter_purchases
-		complete_national_focus = CHI_mission_to_the_us
-		complete_national_focus = CHI_mission_to_the_soviet_union
-		complete_national_focus = CHI_hire_chennault
-		complete_national_focus = CHI_rapprochement_with_soviet_union
-		complete_national_focus = CHI_invite_soviet_advisers
-		complete_national_focus = CHI_military_affairs_commission
-		complete_national_focus = CHI_burma_road
-		unlock_national_focus = CHI_the_soviet_volunteer_group
-		complete_national_focus = CHI_bureau_of_investigation_and_statistics
-		complete_national_focus = CHI_camco
-		complete_national_focus = CHI_three_principles_of_the_people
-		complete_national_focus = CHI_army_reform
-		complete_national_focus = CHI_nationalism
-		else = {
-			#generic focuses
-			complete_national_focus = army_effort
-			complete_national_focus = equipment_effort
-			complete_national_focus = motorization_effort
-			complete_national_focus = aviation_effort
-			complete_national_focus = naval_effort
-			complete_national_focus = flexible_navy
-			complete_national_focus = industrial_effort
-			complete_national_focus = construction_effort
-			complete_national_focus = production_effort
-		}
-	}
-
-	add_ideas = {
-		#laws
-		war_economy
-		service_by_requirement
-		closed_economy
-
-		#ministers
-		CHI_bo_yibo
-		CHI_xiao_yisu
-		CHI_chen_shaokuan
-		jiangnan_shipyard_group
-		camco
-
-	}
 	set_technology = {
 
 		#PLACEHOLDER techs for vehicles
@@ -127,12 +79,12 @@ set_politics = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		despotism = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -143,9 +95,8 @@ create_country_leader = {
 	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
 	picture = "Yuan_Hai.tga"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = absolute_monarch
 	traits = {
-		generallissimo
 	}
 }
 
@@ -188,7 +139,7 @@ create_country_leader = {
 1939.1.1 = {
 	set_politics = {
 
-		parties = {
+			parties = {
 		democratic = { 
 			popularity = 0
 		}
@@ -202,16 +153,16 @@ create_country_leader = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		despotism = { 
 			popularity = 100
 		}
 	}
-		
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
+	
+	ruling_party = despotism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 }
 
 create_field_marshal = {

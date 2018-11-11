@@ -33,10 +33,19 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "David Kalakaua"
+	desc = ""
+	picture = "david_kalākaua.tga"
+	expire = "1965.1.1"
+	ideology = absolute_monarch
+	traits = {
+		#
+	}
+}
+
 
 1939.1.1 = {
-	
-	oob = "GXC_1939"
 
 	add_political_power = 1198
 	
@@ -65,11 +74,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "David Kat̄akau"
+	name = "David Kalakaua"
 	desc = ""
 	picture = "david_kalākaua.tga"
 	expire = "1965.1.1"
-	ideology = absolute_monarchy
+	ideology = absolute_monarch
 	traits = {
 		#
 	}
