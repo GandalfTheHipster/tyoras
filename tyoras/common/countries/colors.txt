@@ -601,5 +601,9 @@ HAW = {
 	color = rgb { 160 0 0 }
 	color_ui = rgb { 79 14 9 }
 }
+HEJ = {
+	color = rgb { 118 0 0 }
+	color_ui = rgb { 79 14 9 }
+}
 
 

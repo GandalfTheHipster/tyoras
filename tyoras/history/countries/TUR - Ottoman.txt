@@ -33,6 +33,10 @@ set_autonomy = {
 	autonomous_state = tyo_Otto_Princi
 }
 set_autonomy = {
+	target = HEJ
+	autonomous_state = tyo_Otto_Princi
+}
+set_autonomy = {
 	target = BOS
 	autonomous_state = TYO_Ottoman_protectorate
 }

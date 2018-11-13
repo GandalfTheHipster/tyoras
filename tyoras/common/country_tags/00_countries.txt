@@ -118,6 +118,7 @@ WAL = "countries/Wallachia.txt"
 TRA = "countries/Transylvania.txt"
 BOS = "countries/Bosnia.txt"
 CRI = "countries/Crimea.txt"
+HEJ = "countries/Hejaz.txt"
 
 #Pacific Nations
 HAW = "countries/Hawaii.txt"
