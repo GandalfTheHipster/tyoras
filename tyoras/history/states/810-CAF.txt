@@ -1,9 +1,18 @@
 state={
 	id=810
 	name="STATE_810"
+	history={
+		owner = CAF
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = CAF
+	}
 	provinces={
 		1914 1953 1960 2016 4033 5060 7996 8052 8084 8103 10739 10764 10795 10827 10851 10857 10877 10900 10908 12744 12800 12887 
 	}
-	manpower=0
+	manpower=207733
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

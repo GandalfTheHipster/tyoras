@@ -1,9 +1,18 @@
 state={
 	id=805
 	name="STATE_805"
+	history={
+		owner = BEN
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = BEN
+	}
 	provinces={
 		1932 1992 2025 4889 4938 7978 8021 8034 10820 10831 
 	}
-	manpower=0
+	manpower=207733
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

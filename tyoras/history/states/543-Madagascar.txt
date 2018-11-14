@@ -4,7 +4,7 @@ state={
 	name="STATE_543"
 
 	history={
-		owner = IND
+		owner = MER
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -14,7 +14,7 @@ state={
 			}
 
 		}
-
+add_core_of = IND
 	}
 
 	provinces={

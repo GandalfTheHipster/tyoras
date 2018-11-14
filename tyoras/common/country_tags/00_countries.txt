@@ -124,6 +124,18 @@ BOS = "countries/Bosnia.txt"
 CRI = "countries/Crimea.txt"
 HEJ = "countries/Hejaz.txt"
 
+#African Nations
+WAS = "countries/Wassoulou.txt"
+ASH = "countries/Ashanti.txt"
+SON = "countries/Songhai.txt"
+OYO = "countries/Oyo.txt"
+SOK = "countries/Sokoto.txt"
+BEN = "countries/Benin.txt"
+CAF = "countries/CentralAfrica.txt"
+BUN = "countries/Bunyoro.txt"
+YEK = "countries/Yeke.txt"
+MER = "countries/Merina.txt"
+
 #Pacific Nations
 HAW = "countries/Hawaii.txt"
 

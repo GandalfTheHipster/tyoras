@@ -605,5 +605,44 @@ HEJ = {
 	color = rgb { 118 0 0 }
 	color_ui = rgb { 79 14 9 }
 }
-
+WAS = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+ASH = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+SON = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+OYO = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+SOK = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+BEN = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+CAF = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+BUN = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+YEK = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+MER = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
 
