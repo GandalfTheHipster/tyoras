@@ -82,16 +82,16 @@ set_politics = {
 			popularity = 5
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 5
 		}
 		
-		neutrality = {
+		despotism = {
 			popularity = 90
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = yes
@@ -109,16 +109,16 @@ set_politics = {
 				popularity = 0
 			}
 			
-			communism = {
+			socialism = {
 				popularity = 0
 			}
 			
-			neutrality = {
+			despotism = {
 				popularity = 100
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1938.10.30"
 		election_frequency = 48
 		elections_allowed = yes

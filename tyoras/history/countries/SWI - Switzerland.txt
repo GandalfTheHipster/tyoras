@@ -78,7 +78,7 @@ set_politics = {
 			popularity = 2
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 2
 		}
 	}
@@ -101,7 +101,7 @@ set_politics = {
 				popularity = 2
 			}
 			
-			communism = {
+			socialism = {
 				popularity = 3
 			}
 		}
@@ -114,7 +114,7 @@ set_politics = {
 }
 
 add_ideas = {
-	neutrality_idea	
+	despotism_idea	
 	limited_conscription
 }
 

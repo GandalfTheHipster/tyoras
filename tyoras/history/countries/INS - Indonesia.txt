@@ -34,10 +34,10 @@ set_politics = {
 			popularity = 10
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 30
 		}
-		neutrality = {
+		despotism = {
 			popularity = 50
 		}
 	}

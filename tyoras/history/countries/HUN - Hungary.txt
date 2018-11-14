@@ -133,15 +133,15 @@ set_politics = {
 		fascism = {
 			popularity = 31
 		}
-		neutrality = {
+		despotism = {
 			popularity = 44
 		}
-		communism = {
+		socialism = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = yes
@@ -235,7 +235,7 @@ create_country_leader = {
 				popularity = 70
 			}
 			
-			communism = {
+			socialism = {
 				popularity = 3
 			}
 		}

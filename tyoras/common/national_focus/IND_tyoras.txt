@@ -1,0 +1,68 @@
+focus_tree = { 
+id = tyoras
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = IND 
+} 
+} 
+#Focus for Side with the Chinese
+focus = { 
+id = IND_sidewiththechinese
+icon = GFX_focus_chi_cooperation_with_the_nationalists
+x = 3
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Side with the Arabs
+focus = { 
+id = IND_sidewiththearabs
+icon = GFX_focus_chi_collaboration_with_the_japanese
+x = 9
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Kollami Way of Life
+focus = { 
+id = IND_kollamiwayoflife
+icon = GFX_focus_prc_agrarian_socialism
+x = 6
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = IND_assemblerajacouncil } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Assemble Raja Council
+focus = { 
+id = IND_assemblerajacouncil
+icon = GFX_goal_generic_improve_relations
+x = 6
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

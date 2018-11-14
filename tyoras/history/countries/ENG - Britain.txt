@@ -45,8 +45,6 @@ set_technology = {
 	radio_detection = 1
 }
 
-add_ideas = {
-}
 
 set_convoys = 800
 

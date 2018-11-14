@@ -1,3 +1,7 @@
+####
+GER	= "countries/Germany.txt"
+SOV	= "countries/Soviet.txt"
+########
 ALE	= "countries/Alemand.txt"
 ENG = "countries/United Kingdom.txt"
 GOL = "countries/Horde.txt"

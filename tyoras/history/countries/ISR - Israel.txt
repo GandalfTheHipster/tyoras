@@ -70,7 +70,7 @@ set_politics = {
 			popularity = 0
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 20
 			#banned = no #default is no
 		}

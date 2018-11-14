@@ -121,7 +121,7 @@ set_politics = {
 			popularity = 0
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 0
 			#banned = no #default is no
 		}
@@ -191,7 +191,7 @@ set_convoys = 70
 				popularity = 0
 			}
 			
-			communism = {
+			socialism = {
 				popularity = 0
 				#banned = no #default is no
 			}

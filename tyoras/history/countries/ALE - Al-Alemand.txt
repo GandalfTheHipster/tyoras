@@ -1,6 +1,6 @@
 ﻿capital = 64
 
-oob = "GER_1936"
+oob = "ALE_1936"
 
 # Starting tech
 set_technology = {
@@ -52,7 +52,7 @@ set_war_support = 0.3
 
 	add_political_power = 1197
 	
-	oob = "GER_1939"	
+	oob = "ALE_1939"	
 
 	set_technology = {
 		improved_light_tank = 1 

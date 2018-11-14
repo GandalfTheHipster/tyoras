@@ -87,17 +87,17 @@ set_politics = {
 			popularity = 15
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 5
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		despotism = { 
 			popularity = 60
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1932.5.21"
 	election_frequency = 48
 	elections_allowed = no
@@ -115,17 +115,17 @@ set_politics = {
 				popularity = 15
 			}
 			
-			communism = {
+			socialism = {
 				popularity = 5
 				#banned = no #default is no
 			}
 			
-			neutrality = { 
+			despotism = { 
 				popularity = 60
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1938.2.25"
 		election_frequency = 48
 		elections_allowed = no

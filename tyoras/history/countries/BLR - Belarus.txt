@@ -48,12 +48,12 @@ set_politics = {
 			popularity = 11
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 89
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = socialism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no

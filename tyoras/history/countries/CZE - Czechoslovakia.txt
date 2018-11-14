@@ -27,7 +27,7 @@ set_politics = {
 			popularity = 35
 		}
 
-		neutrality = { 
+		despotism = { 
 			popularity = 0
 		}
 
@@ -35,7 +35,7 @@ set_politics = {
 			popularity = 65
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 0
 		}
 	}

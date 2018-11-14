@@ -73,17 +73,17 @@ set_politics = {
 			popularity = 5
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 10
 			#banned = no #default is no
 		}
 
-		neutrality = {
+		despotism = {
 			popularity = 70
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1934.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -112,17 +112,17 @@ create_country_leader = {
 				popularity = 5
 			}
 			
-			communism = {
+			socialism = {
 				popularity = 10
 				#banned = no #default is no
 			}
 
-			neutrality = {
+			despotism = {
 				popularity = 70
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1936.12.8"
 		election_frequency = 48
 		elections_allowed = no

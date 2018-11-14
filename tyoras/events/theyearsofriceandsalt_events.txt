@@ -260,7 +260,7 @@ country_event = {
  id = theyearsofriceandsalt.17
  title = theyearsofriceandsalt.17.title
  desc = theyearsofriceandsalt.17.desc
- picture = GFX_thejapanesequestion
+ picture = GFX_report_event_romania_poland_visit
  is_triggered_only = yes
  fire_only_once = yes
  major = yes
@@ -279,12 +279,24 @@ country_event = {
 	}
 }
 
-##Event: War in the Middle East!
+##Event: Ottoman-Kollami Alliance
 news_event = {
  id = theyearsofriceandsalt.18
  title = theyearsofriceandsalt.18.title
  desc = theyearsofriceandsalt.18.desc
- picture = GFX_news_event_chinese_soldiers_city_ruin
+ picture = GFX_news_event_fascist_militia
+ is_triggered_only = yes
+ fire_only_once = yes
+ major = yes
+	mean_time_to_happen = { days = 1}
+}
+
+##Event: Zanjiland Coup
+news_event = {
+ id = theyearsofriceandsalt.19
+ title = theyearsofriceandsalt.19.title
+ desc = theyearsofriceandsalt.19.desc
+ picture = GFX_news_event_040
  is_triggered_only = yes
  fire_only_once = yes
  major = yes

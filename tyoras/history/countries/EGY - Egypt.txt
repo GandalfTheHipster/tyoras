@@ -70,17 +70,17 @@ set_politics = {
 			popularity = 20
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 5
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		despotism = { 
 			popularity = 50
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

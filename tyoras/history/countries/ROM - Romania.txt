@@ -34,7 +34,7 @@ if = {
 	give_guarantee = GRE
 	give_guarantee = TUR
 }
-add_ideas = neutrality_idea
+add_ideas = despotism_idea
 
 #Kick off kings crazy life
 if = {
@@ -53,7 +53,7 @@ if = {
 set_convoys = 10
 1939.1.1 = {
 	
-	remove_ideas = neutrality_idea
+	remove_ideas = despotism_idea
 
 	add_political_power = 1198
 	if = {
@@ -177,16 +177,16 @@ set_politics = {
 			popularity = 18
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 2
 		}
 		
-		neutrality = { 
+		despotism = { 
 			popularity = 60
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = yes
@@ -204,16 +204,16 @@ set_politics = {
 				popularity = 35
 			}
 			
-			communism = {
+			socialism = {
 				popularity = 2
 			}
 			
-			neutrality = { 
+			despotism = { 
 				popularity = 43
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1939.7.15"
 		election_frequency = 48
 		elections_allowed = no

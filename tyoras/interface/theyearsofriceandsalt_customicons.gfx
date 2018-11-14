@@ -15,9 +15,5 @@ spriteTypes = {
  SpriteType = { 
  name = "GFX_article27a" 
  texturefile = "gfx/interface/event_gfx/GFX_article27a.tga" 
- }##Icon For: The Japanese Question
- SpriteType = { 
- name = "GFX_thejapanesequestion" 
- texturefile = "gfx/interface/event_gfx/GFX_thejapanesequestion.tga" 
  } 
  }

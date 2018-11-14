@@ -78,7 +78,7 @@ set_politics = {
 			popularity = 9
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 9
 			#banned = no #default is no
 		}
@@ -124,7 +124,7 @@ create_country_leader = {
 				popularity = 9
 			}
 			
-			communism = {
+			socialism = {
 				popularity = 9
 				#banned = no #default is no
 			}

@@ -70,12 +70,12 @@ set_politics = {
 			popularity = 20
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 5
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		despotism = { 
 			popularity = 50
 		}
 	}

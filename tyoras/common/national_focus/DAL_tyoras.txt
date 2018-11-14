@@ -1,0 +1,83 @@
+focus_tree = { 
+id = tyoras
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = DAL 
+} 
+} 
+#Focus for A Divided Nation
+focus = { 
+id = DAL_adividednation
+icon = GFX_focus_generic_provoke_border_clashes
+x = 6
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Side with the European Nationalists
+focus = { 
+id = DAL_sidewiththeeuropeannationalists
+icon = GFX_focus_ger_assassinate_mussolini
+x = 5
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = DAL_versalliesdeclaration } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Side with the Muslim Conservatives
+focus = { 
+id = DAL_sidewiththemuslimconservatives
+icon = GFX_focus_jap_showa_restoration
+x = 7
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = DAL_versalliesdeclaration } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Versallies Declaration
+focus = { 
+id = DAL_versalliesdeclaration
+icon = GFX_goal_generic_radar
+x = 6
+y = 1
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Operation Shukjoli
+focus = { 
+id = DAL_operationshukjoli
+icon = GFX_goal_generic_political_pressure
+x = 8
+y = 4
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

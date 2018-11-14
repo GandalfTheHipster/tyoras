@@ -4,21 +4,6 @@ oob = "YUG_1936"
 
 set_research_slots = 3
 
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		YUG_idea_croatian_opposition
-		YUG_idea_macedonian_opposition
-		YUG_idea_slovene_nationalism
-		YUG_idea_serbian_general_staff
-	}
-}
-add_ideas = {
-	anti_german_military
-}
-
 set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
@@ -37,64 +22,7 @@ set_technology = {
 
 1939.1.1 = {
 
-	add_ideas = {
-		limited_conscription
-	}
-	if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		YUG_idea_foreign_capital
-		YUG_idea_expanded_mining_industry
-		YUG_license_production
-		YUG_idea_orthodox_church_support
-	}
-}
-
 	add_political_power = 1198
-	
-	if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-		complete_national_focus = YUG_western_focus
-		complete_national_focus = YUG_friendship_treaty_with_italy
-		complete_national_focus = YUG_attract_foreign_capital
-		complete_national_focus = YUG_industrialization_program
-		complete_national_focus = YUG_limited_self_government
-		complete_national_focus = YUG_army_modernization
-		complete_national_focus = YUG_mountain_brigades
-		complete_national_focus = YUG_expand_the_mining_industry
-		complete_national_focus = YUG_modernize_the_air_force
-		complete_national_focus = YUG_develop_civilian_industry
-		complete_national_focus = YUG_purchase_foreign
-		complete_national_focus = YUG_license_production
-		complete_national_focus = YUG_fighter_license
-		complete_national_focus = YUG_rare_minerals_exploitation
-		complete_national_focus = YUG_traditional_values
-		complete_national_focus = YUG_greater_yugoslavia
-		complete_national_focus = YUG_small_arms 
-		complete_national_focus = YUG_domestic_artillery_production
-		complete_national_focus = YUG_expand_the_serbian_shipyards
-		complete_national_focus = YUG_coastal_defense
-	}
-	
-	if = {
-	limit = {
-		NOT = { has_dlc = "Death or Dishonor" }
-	}
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	}
 	
 	oob = "YUG_1939"
 	set_technology = {
@@ -145,17 +73,17 @@ set_politics = {
 			popularity = 10
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 15
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		despotism = { 
 			popularity = 60
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1935.5.3"
 	election_frequency = 36
 	elections_allowed = yes
@@ -173,17 +101,17 @@ set_politics = {
 				popularity = 20
 			}
 			
-			communism = {
+			socialism = {
 				popularity = 5
 				#banned = no #default is no
 			}
 			
-			neutrality = { 
+			despotism = { 
 				popularity = 60
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1938.12.1"
 		election_frequency = 36
 		elections_allowed = yes

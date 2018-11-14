@@ -119,10 +119,6 @@ prerequisite = { focus = CHI_yinandyang }
 ai_will_do = { 
  factor = 50
  } 
-completion_reward = { 
-add_war_support = 25
-army_experience= 50
- } 
 
  } 
 
@@ -336,17 +332,6 @@ prerequisite = { focus = CHI_thelongroadofreconciliation }
 ai_will_do = { 
  factor = 1
  } 
-completion_reward = { 
-add_war_support = 5add_stability = 0.05add_political_power = 50add_building_construction = { 
-type = industrial_complex 
-province = 1025 
-level = 1 
-instant_build = yes }add_building_construction = { 
-type = industrial_complex 
-province = 12032 
-level = 1 
-instant_build = yes }
- } 
 
  } 
 
@@ -361,14 +346,6 @@ available_if_capitulated = yes
 prerequisite = { focus = CHI_thenewdeal } 
 ai_will_do = { 
  factor = 100
- } 
-completion_reward = { 
-add_building_construction = { 
-type = industrial_complex 
-province = 4027 
-level = 1 
-instant_build = yes }
-add_stability = 0.05
  } 
 
  } 

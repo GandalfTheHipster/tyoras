@@ -36,7 +36,7 @@ set_politics = {
 			popularity = 46
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 7
 		}
 	}
@@ -54,18 +54,6 @@ set_stability = 0.5
 
 	add_political_power = 1198
 	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "SPA_1939"
 	load_oob = "unlock_tanks"
 	set_technology = {
 		fighter1 = 1
@@ -122,7 +110,7 @@ set_stability = 0.5
 				popularity = 76
 			}
 			
-			communism = {
+			socialism = {
 				popularity = 2
 			}
 		}
@@ -132,10 +120,6 @@ set_stability = 0.5
 		election_frequency = 60
 		elections_allowed = no
 	}
-
-	set_global_flag = scw_over
-	add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1095 }
-}
 
 create_country_leader = {
 	name = "Manuel Azana"

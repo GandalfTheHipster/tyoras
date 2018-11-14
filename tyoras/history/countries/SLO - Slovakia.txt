@@ -70,7 +70,7 @@ set_politics = {
 			popularity = 90
 		}
 		
-		communism = {
+		socialism = {
 			popularity = 5
 		}
 	}
