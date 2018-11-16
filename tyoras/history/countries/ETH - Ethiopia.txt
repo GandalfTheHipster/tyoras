@@ -1,51 +1,38 @@
-﻿capital = 292
+﻿capital = 271
 
-oob = "SAU_1936"
+oob = "ETH_1936"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	gwtank = 1
+	tech_mountaineers = 1
 }
 
 set_convoys = 5
 
 1939.1.1 = {
-
-	add_political_power = 1198
-	
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
 	complete_national_focus = motorization_effort
 	complete_national_focus = aviation_effort
 	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
+	complete_national_focus = flexible_navy
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "SAU_1939"
 	set_technology = {
-		tech_support = 1
-		tech_recon = 1
-		support_weapons = 1
-		gw_artillery = 1
 
 		#doctrines
-		air_superiority = 1
 		grand_battle_plan = 1
 		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
 		mechanical_computing = 1
-		computing_machine = 1
 
 		#industry
 		basic_machine_tools = 1
@@ -53,14 +40,12 @@ set_convoys = 5
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
 		oil_processing = 1
-		improved_oil_processing = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
 }
-
 set_politics = {
 
 	parties = {
@@ -69,7 +54,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 100
+			popularity = 0
 		}
 		
 		socialism = {
@@ -78,34 +63,40 @@ set_politics = {
 		}
 		
 		despotism = { 
-			popularity = 0
+			popularity = 100
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Rajul Alsham Harazuma"
-	desc = ""
-	picture = "rajul_alsham_harazuma.tga"
+	name = "Haile Selassie"
+	desc = "POLITICS_HAILE_SELASSIE_DESC"
+	picture = "haile_selassie.tga"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = absolute_monarch
 	traits = {
 		#
 	}
 }
 
-create_faction = islam_federation
-add_to_faction = SAU
-add_to_faction = PER
-add_to_faction = EGY
-add_to_faction = NIC
+create_country_leader = {
+	name = "Fitawrari Yeebio Woldai"
+	desc = "POLITICS_YEEBIO_WOLDAI_DESC"
+	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
 
 
+#Now a colony of Italy  However, if independent it would have
 1939.1.1 = {
 	set_politics = {
 
@@ -115,7 +106,7 @@ add_to_faction = NIC
 		}
 
 		fascism = {
-			popularity = 100
+			popularity = 0
 		}
 		
 		socialism = {
@@ -124,13 +115,24 @@ add_to_faction = NIC
 		}
 		
 		despotism = { 
-			popularity = 0
+			popularity = 100
 		}
 	}
-	
-	ruling_party = fascism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
+		
+		ruling_party = despotism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
 }
+
+create_corps_commander = {
+	name = "Seyoum Mengesha"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+	traits = {  desert_fox }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
 }

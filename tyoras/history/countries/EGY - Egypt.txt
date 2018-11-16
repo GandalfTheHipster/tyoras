@@ -62,21 +62,18 @@ set_convoys = 20
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 25
-		}
 
 		fascism = {
-			popularity = 20
+			popularity = 10
 		}
 		
 		socialism = {
-			popularity = 5
+			popularity = 2
 			#banned = no #default is no
 		}
 		
 		despotism = { 
-			popularity = 50
+			popularity = 88
 		}
 	}
 	
@@ -87,10 +84,10 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Muhammad Naguib"
+	name = "Hmed Zaki Abushady"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_democratic1.dds"
-	ideology = liberalism
+	picture = "hmed_zaki_abushady.tga"
+	ideology = absolute_monarch
 	traits = {
 		#
 	}

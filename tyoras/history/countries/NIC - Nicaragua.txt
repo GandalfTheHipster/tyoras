@@ -62,32 +62,44 @@ set_convoys = 10
 	}
 }
 
-set_politics = {
+	set_politics = {
 
-	parties = {
-		democratic = { 
-			popularity = 15
-		}
+		parties = {
+			democratic = { 
+				popularity = 7
+			}
 
-		fascism = {
-			popularity = 5
+			fascism = {
+				popularity = 70
+			}
+			
+			socialism = {
+				popularity = 20
+				#banned = no #default is no
+			}
+
+			despotism = {
+				popularity = 3
+			}
 		}
 		
-		socialism = {
-			popularity = 10
-			#banned = no #default is no
-		}
+		ruling_party = fascism
+		last_election = "1936.12.8"
+		election_frequency = 48
+		elections_allowed = no
+	}
 
-		despotism = {
-			popularity = 70
+}
+	create_country_leader = {
+		name = "Faris Natil Hubab"
+		desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
+		picture = "cats.tga"
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {
+			#
 		}
 	}
-	
-	ruling_party = despotism
-	last_election = "1934.11.8"
-	election_frequency = 48
-	elections_allowed = no
-}
 
 create_country_leader = {
 	name = "Juan Bautista Sacasa"
@@ -105,24 +117,24 @@ create_country_leader = {
 
 		parties = {
 			democratic = { 
-				popularity = 15
+				popularity = 7
 			}
 
 			fascism = {
-				popularity = 5
+				popularity = 70
 			}
 			
 			socialism = {
-				popularity = 10
+				popularity = 20
 				#banned = no #default is no
 			}
 
 			despotism = {
-				popularity = 70
+				popularity = 3
 			}
 		}
 		
-		ruling_party = despotism
+		ruling_party = fascism
 		last_election = "1936.12.8"
 		election_frequency = 48
 		elections_allowed = no
@@ -130,11 +142,11 @@ create_country_leader = {
 
 }
 	create_country_leader = {
-		name = "Anastasio Somoza García"
+		name = "Faris Natil Hubab"
 		desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
-		picture = "GFX_portrait_nicaragua_portrait_anastasio_somoza_garcia"
+		picture = "cats.tga"
 		expire = "1965.1.1"
-		ideology = despotism
+		ideology = fascism_ideology
 		traits = {
 			#
 		}
