@@ -1,0 +1,15 @@
+spriteTypes = { 
+##Icon For: 89690
+ SpriteType = { 
+ name = "GFX_thestringsattatched" 
+ texturefile = "gfx/interface/goals/GFX_thestringsattatched.tga" 
+ }##Icon For: 88267
+ SpriteType = { 
+ name = "GFX_yinandyang" 
+ texturefile = "gfx/interface/goals/GFX_yinandyang.tga" 
+ }##Icon For: 89709
+ SpriteType = { 
+ name = "GFX_cutemloose" 
+ texturefile = "gfx/interface/goals/GFX_cutemloose.tga" 
+ } 
+ }

@@ -1,0 +1,41 @@
+
+state={
+	id=261
+	name="STATE_261"
+	resources={
+		steel=28.000
+		aluminium=9.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 6
+
+		}
+		add_core_of = USA
+		victory_points = {
+			6855 5 
+		}
+		victory_points = {
+			6890 10 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 7
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		659 689 702 734 822 827 831 847 862 880 882 971 3685 3687 3697 3702 3733 3747 3802 3829 3847 3850 3853 3872 3880 4442 4601 6705 6707 6855 6872 6874 6885 6890 6899 7528 9662 9664 9760 9775 9789 9804 9808 9825 9836 11648 11650 11654 11680 11758 11760 11769 11776 11789 11791 11800 11817 11890 12405 13154 13157 
+	}
+	manpower=6646694
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

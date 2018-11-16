@@ -1,0 +1,28 @@
+
+state={
+	id=274
+	name="STATE_274"
+
+	history={
+		owner = LIB
+		victory_points = {
+			10862 1 
+		}
+		buildings = {
+			infrastructure = 3
+			10862 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		12742 
+	}
+	manpower=3163600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
