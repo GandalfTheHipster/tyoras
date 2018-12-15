@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = NIC
+		owner = ZAN
 		victory_points = {
 			2196 1 
 		}
@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		add_core_of = NIC
+		add_core_of = ZAN
 
 	}
 

@@ -137,8 +137,8 @@ BRA = {
 	color = rgb { 76 145 63 }
 	color_ui = rgb { 99 189 82 }
 }
-CAN = {
-	color = rgb { 205 0 25 }
+FOU = {
+	color = rgb { 239 164 206 }
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
@@ -197,7 +197,7 @@ NEP = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
 }
-NIC = {
+ZAN = {
 	color = rgb { 146 179 191 }
 	color_ui = rgb { 146 179 191 }
 }
@@ -614,19 +614,19 @@ ASH = {
 	color_ui = rgb { 87 165 82 }
 }
 SON = {
-	color = rgb { 67 127 63 }
+	color = rgb { 177 61 59 }
 	color_ui = rgb { 87 165 82 }
 }
 OYO = {
-	color = rgb { 67 127 63 }
+	color = rgb { 0 0 0 }
 	color_ui = rgb { 87 165 82 }
 }
 SOK = {
-	color = rgb { 67 127 63 }
+	color = rgb { 70 139 62 }
 	color_ui = rgb { 87 165 82 }
 }
 BEN = {
-	color = rgb { 67 127 63 }
+	color = rgb { 242 203 57 }
 	color_ui = rgb { 87 165 82 }
 }
 CAF = {
@@ -642,7 +642,7 @@ YEK = {
 	color_ui = rgb { 87 165 82 }
 }
 MER = {
-	color = rgb { 67 127 63 }
+	color = rgb { 232 79 64 }
 	color_ui = rgb { 87 165 82 }
 }
 

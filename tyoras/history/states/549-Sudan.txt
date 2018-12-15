@@ -4,7 +4,7 @@ state={
 	name="STATE_549"
 
 	history={
-		owner = NIC
+		owner = ZAN
 		buildings = {
 			infrastructure = 3
 

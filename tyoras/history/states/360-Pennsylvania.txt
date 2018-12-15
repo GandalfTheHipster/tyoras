@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = CAN
+		owner = FOU
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 5
@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		add_core_of = CAN
+		add_core_of = FOU
 		victory_points = {
 			6845 20 
 		}

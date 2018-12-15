@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = CAN
+		owner = FOU
 		buildings = {
 			infrastructure = 1
 			3691 = {
@@ -16,7 +16,7 @@ state={
 			}
 
 		}
-		add_core_of = CAN
+		add_core_of = FOU
 
 	}
 
