@@ -10,11 +10,12 @@ state={
 	}
 
 	history={
-		owner = OMA
+		owner = CNA
 		buildings = {
 			infrastructure = 1
 		}
-
+add_core_of = CNA
+add_core_of = RSR
 	}
 
 	provinces={

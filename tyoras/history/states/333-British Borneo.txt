@@ -12,9 +12,12 @@ state=
 
 	history=
 	{
-		owner = CHI
+		owner = CNA
 		victory_points = {
 			7371 1
+		}
+		victory_points = {
+			1208 1
 		}
 		buildings = {
 			infrastructure = 3
@@ -25,7 +28,7 @@ state=
 				naval_base = 2
 			}
 		}
-		add_core_of = CHI
+		add_core_of = CNA
 	}
 
 	provinces={

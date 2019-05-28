@@ -11,10 +11,8 @@ state={
 	}
 
 	history={
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = CHI
-		add_core_of = CHI
+		owner = CNA
+		add_core_of = CNA
 		buildings = {
 			infrastructure = 4
 			#industrial_complex = 1

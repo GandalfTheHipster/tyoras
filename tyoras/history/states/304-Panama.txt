@@ -10,7 +10,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = VEN
+		owner = CNA
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -19,10 +19,16 @@ state={
 			7630 = {
 				naval_base = 4
 			}
+			4611 = {
+				naval_base = 1
+			}
 		}
-		add_core_of = VEN
+		add_core_of = CNA
 		victory_points = {
 			7630 5 
+		}
+		victory_points = {
+			4611 1
 		}
 
 	}

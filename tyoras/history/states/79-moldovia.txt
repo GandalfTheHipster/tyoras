@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = MOL
+		owner = POL
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -17,7 +17,10 @@ state=
 		victory_points = {
 			9716 1 
 		}
-		add_core_of = MOL
+		victory_points = {
+			6706 1 
+		}
+		add_core_of = POL
 	}
 	provinces=
 	{

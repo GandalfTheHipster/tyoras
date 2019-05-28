@@ -8,7 +8,11 @@ state=
 	
 	history=
 	{
-		owner = COG
+		owner = SHL
+		add_core_of = SHL
+		victory_points = {
+			1903 1 
+		}
 		buildings = {
 			infrastructure = 2
 			1903 = {

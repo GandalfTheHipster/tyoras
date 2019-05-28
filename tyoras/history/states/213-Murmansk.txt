@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = FIN
+		owner = SWN
 		victory_points = {
 			3134 5 
 		}
@@ -22,7 +22,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = FIN
+		add_core_of = SWN
 	}
 
 	provinces={

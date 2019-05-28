@@ -10,10 +10,8 @@ state= {
 	}
 
 	history= {
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = CHI
-		add_core_of = CHI
+		owner = CNA
+		add_core_of = CNA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -29,7 +27,7 @@ state= {
 				limit = {
 					NOT = { has_dlc = "Waking the Tiger" }
 				}
-				CHI = { transfer_state = PREV }
+				CNA = { transfer_state = PREV }
 			}
 		}
 

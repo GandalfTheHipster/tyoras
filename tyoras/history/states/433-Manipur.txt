@@ -12,12 +12,14 @@ state={
 	}
 
 	history={
-		owner = IND
+		victory_points = {
+			2054 1
+		}
+		owner = EKA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = IND
 
 	}
 

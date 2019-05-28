@@ -8,16 +8,19 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 	history={
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = CHI
+		owner = CNA
+		add_core_of = CNA
+		add_core_of = PRC
 		buildings = {
 			infrastructure = 4
 		}
+		victory_points = {
+			12019 1
+		}
 		
 		1938.10.25 = {
-			controller = CHI
-			CHI = {
+			controller = JAP
+			CNA = {
 				set_province_controller = 1125
 				set_province_controller = 7104
 				set_province_controller = 12019

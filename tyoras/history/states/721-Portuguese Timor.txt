@@ -7,7 +7,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = BHU
+		owner = MAZ
+		add_core_of = MAZ
 		buildings = {
 			infrastructure = 3
 			12190 ={

@@ -7,7 +7,7 @@ state={
 	
 	history=
 	{
-		owner = SAU
+		owner = EGD
 		buildings = {
 			infrastructure = 3
 			2188 = {

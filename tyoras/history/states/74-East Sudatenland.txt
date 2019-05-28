@@ -9,17 +9,15 @@ state=
 	
 	history=
 	{
-		owner = ALE
+		victory_points = {
+			3583 5
+		}
+		owner = ORT
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
 		}
-		add_core_of = ALE
-
-		1938.9.30 = {
-			owner = ALE
-			controller = ALE
-		}
+		add_core_of = ORT
 	}
 	provinces= {
 		421 3414 3583 6485

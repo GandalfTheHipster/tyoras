@@ -9,9 +9,11 @@ state={
 	state_category = large_city
 	
 	history={
-		owner = ALE
-		victory_points = { 11542 20 }
+		owner = ORT
+		victory_points = { 11542 30 }
 		victory_points = { 6418 5 }
+		victory_points = { 9569 5 }
+		#victory_points = { 9541 3 }
 		buildings = {
 			infrastructure = 7
 			arms_factory = 6
@@ -19,12 +21,7 @@ state={
 			anti_air_building = 5
 			air_base = 5
 		}
-		add_core_of = ALE
-
-		1939.3.14 = {
-			owner = ALE
-			controller = ALE
-		}
+		add_core_of = ORT
 	}
 
 	provinces={

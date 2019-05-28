@@ -6,7 +6,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = AND
+		owner = ALA
 		buildings = {
 			infrastructure = 3
 			13014 ={

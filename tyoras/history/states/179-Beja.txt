@@ -7,7 +7,16 @@ state={
 	state_category = town
 
 	history={
-		owner = AND
+		owner = ALA
+		victory_points = {
+			3790 1
+		}
+		victory_points = {
+			6880 1
+		}
+		victory_points = {
+			9869 1
+		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -15,7 +24,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = AND
+		add_core_of = ALA
 	}
 
 	provinces={

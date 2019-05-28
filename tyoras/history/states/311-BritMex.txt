@@ -1,25 +1,23 @@
-
-state={
+state=
+{
 	id=311
 	name="STATE_311"
-
-	history={
-		owner = VEN
+	manpower = 51000
+	
+	state_category = pastoral
+	history=
+	{
+		add_core_of = CNA
+		owner = CNA
+		victory_points = {
+			2077 1 
+		}
 		buildings = {
 			infrastructure = 4
 			2077 = {
 				naval_base = 1
-
 			}
-
 		}
-
 	}
-
-	provinces={
-		1988 2031 2075 2077 4991 8017 8017 10728 13085 13139 13178 
-	}
-	manpower=51000
-	buildings_max_level_factor=1.000
-	state_category=enclave
+	provinces= { 2077 }
 }

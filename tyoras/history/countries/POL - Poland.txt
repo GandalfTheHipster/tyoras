@@ -1,27 +1,22 @@
-﻿capital = 10
+﻿capital = 49
 
-oob = "POL_1936"
-
+#oob = "TUR_1936"
 set_research_slots = 3
 
-# Starting tech
+add_ideas = {
+	limited_conscription
+}
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_mountaineers = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	gwtank = 1
 	early_fighter = 1
-	early_bomber = 1
 	CAS1 = 1
-	early_destroyer = 1
-	early_submarine = 1	
-	trench_warfare = 1
 }
+
 
 1939.1.1 = {
 
@@ -33,34 +28,31 @@ set_technology = {
 	complete_national_focus = motorization_effort
 	complete_national_focus = aviation_effort
 	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
+	complete_national_focus = large_navy
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
+	
+	#oob = "TUR_1939"
 
-	add_ideas = {
-		#laws
-		limited_conscription
-		partial_economic_mobilisation
-	}
-
-	oob = "POL_1939"
 	set_technology = {
-		basic_light_tank = 1
+		fighter1 = 1
+		early_bomber = 1
 		tactical_bomber1 = 1
-		motorised_infantry = 1
-		support_weapons = 1
 		interwar_artillery = 1
-		basic_submarine = 1
-		basic_destroyer = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
 
 		#doctrines
 		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
+
+		mass_assault = 1
+		pocket_defence = 1
+		defence_in_depth = 1
+		
 		fleet_in_being = 1
-		battlefleet_concentration = 1
 		convoy_sailing = 1
+		submarine_operations = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -72,164 +64,186 @@ set_technology = {
 		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
-		advanced_machine_tools = 1
 		synth_oil_experiments = 1
+		fuel_silos = 1
 		oil_processing = 1
-		improved_oil_processing = 1
 		construction1 = 1
 		construction2 = 1
-		construction3 = 1
-		construction4 = 1
-		concentrated_industry = 1
-		concentrated_industry2 = 1
-		concentrated_industry3 = 1
-		concentrated_industry4 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
 	}
-	create_equipment_variant = {
-		name = "PZL P.43"
-		type = CAS_equipment_1
-		upgrades = {
-				plane_cas_upgrade = 0
-				plane_range_upgrade = 1
-				plane_engine_upgrade = 2
-				plane_reliability_upgrade = 1
-		}
-	}
-}
-
-
-set_convoys = 46
 
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 10
 		}
 
 		fascism = {
-			popularity = 5
+			popularity = 0
+			banned = yes
 		}
 		
-		tengrism = {
-			popularity = 95
+		communism = {
+			popularity = 0
+			banned = yes #default is no
+		}
+		
+		neutrality = { 
+			popularity = 100
 		}
 	}
 	
-	ruling_party = tengrism
-	last_election = "1933.7.1"
+	ruling_party = neutrality
+	last_election = "1935.2.8"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
+
+set_convoys = 20
+set_stability = 0.55
 
 1939.1.1 = {
 	set_politics = {
 
-	parties = {
-		revivalism = { 
-			popularity = 20
+		parties = {
+		democratic = { 
+			popularity = 10
 		}
 
-		democratic = {
-			popularity = 15
+		fascism = {
+			popularity = 0
+			banned = yes
 		}
 		
-		tengrism = {
-			popularity = 65
+		communism = {
+			popularity = 0
+			banned = yes #default is no
+		}
+		
+		neutrality = { 
+			popularity = 100
 		}
 	}
 	
-	ruling_party = tengrism
-	last_election = "1933.7.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+	ruling_party = neutrality
+		last_election = "1939.2.8"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Ismet Inönü"
+		desc = "POLITICS_ISMET_INÖNÜ_DESC"
+		picture = "Portrait_Turkey_Ismet_Inonu.dds"
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {
+			#
+		}
+	}
+
 }
 
+# Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)
 create_country_leader = {
-	name = "Maximilian Kolbe"
-	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "Maximilian_Kolbe.tga"
+	name = "Ismet Inönü"
+	desc = "POLITICS_ISMET_INÖNÜ_DESC"
+	picture = "Portrait_Turkey_Ismet_Inonu.dds"
 	expire = "1965.1.1"
-	ideology = mongol
+	ideology = despotism
 	traits = {
 		#
 	}
 }
 
-create_field_marshal = {
-	name = "Władysław Sikorski"
-	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
-	traits = { defensive_doctrine }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Władysław Bortnowski"
-	gfx = "GFX_POL_wladyslaw_bortnowski"
-	traits = {  thorough_planner }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Stanisław Kopański"
-	gfx = "GFX_POL_stanislav_kopanski"
-	traits = {  offensive_doctrine }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Władysław Anders"
-	gfx = "GFX_POL_wladislaw_anders"
-	traits = {  armor_officer }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Roman Abraham"
-	gfx = "GFX_POL_roman_abraham"
-	traits = {  }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Wincenty Kowalski"
-	gfx = "GFX_POL_wincenty_kowalski"
-	traits = { trickster }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_equipment_variant = {
-	name = "PZL P.24"
-	type = fighter_equipment_0
-	upgrades = {
-		plane_gun_upgrade = 3
-		plane_range_upgrade = 0  
-		plane_engine_upgrade = 1
-		plane_reliability_upgrade = 3
+create_country_leader = {
+	name = "Mustafa Kemal Atatürk"
+	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
+	expire = "1938.11.10"
+	ideology = despotism
+	traits = {
+		#
 	}
+}
+
+create_country_leader = {
+	name = "Sefik Hüsnü"
+	desc = "POLITICS_SEFIK_HUSNU_DESC"
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Celâl Bayar"
+	desc = "POLITICS_CELAL_BAYAR_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Fevzi Çakmak"
+	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Cemil Cahit Toydemir"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	traits = { desert_fox }
+	skill = 3
+
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Nazmi Solok"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	traits = { trickster }
+	skill = 2
+
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Salih Omurtak"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	traits = {  hill_fighter }
+	skill = 2
+
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Rauf Orbay"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	traits = { bold }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 2
 }

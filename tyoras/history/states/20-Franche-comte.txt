@@ -11,7 +11,7 @@ state={
 	state_category = city
 
 	history={
-		owner = AND
+		owner = ALA
 		victory_points = {
 			6613 10
 		}
@@ -21,7 +21,7 @@ state={
 			industrial_complex = 2
 			air_base = 4
 		}
-		add_core_of = AND
+		add_core_of = ALA
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2

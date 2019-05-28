@@ -8,11 +8,15 @@ state={
 	state_category = town
 
 	history={
-		owner = ALE
+		victory_points = {
+			9388 1
+		}
+		owner = ALM
 		buildings = {
 			infrastructure = 6
+			fuel_silo = 1
 		}
-		add_core_of = ALE
+		add_core_of = ALM
 
 		1939.1.1 = {
 			buildings = {

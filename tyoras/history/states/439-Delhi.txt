@@ -7,7 +7,7 @@ state={
 	state_category = city
 	
 	history={
-		owner = IND
+		owner = EKA
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -16,7 +16,7 @@ state={
 		victory_points = {
 			2086 15 
 		}
-        add_core_of = IND
+
 	}
 
 	provinces={

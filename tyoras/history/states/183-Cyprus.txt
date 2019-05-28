@@ -10,15 +10,21 @@ state= {
 
 	history=
 	{
-		owner = TUR
+		owner = KAR
+		add_core_of = KAR
+		victory_points = {
+			11984 5
+		}
+		victory_points = {
+			7193 3
+		}
 		buildings = {
 			infrastructure = 4
 			air_base = 1
-			11984 = {
+			7193 = {
 				naval_base = 2
 			}
 		}
-		add_core_of = TUR
 
 	}
 	provinces= { 7193 11984 }

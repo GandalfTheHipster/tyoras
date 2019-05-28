@@ -10,9 +10,12 @@ state={
 	}
 
 	history={
-		owner = AUS
+		owner = ORT
 		victory_points = {
-			9692 10 
+			9692 10
+		}
+		victory_points = {
+			11539 5
 		}
 		buildings = {
 			infrastructure = 5
@@ -20,7 +23,8 @@ state={
 			arms_factory = 2
 			air_base = 3
 		}
-		add_core_of = AUS
+		add_core_of = ORT
+		
 	}
 
 	provinces={

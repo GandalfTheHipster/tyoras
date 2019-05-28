@@ -5,10 +5,9 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = CHI
-		add_core_of = CHI
+		owner = JAP
+		add_core_of = JAP
+		add_core_of = CNA
 		buildings = {
 			infrastructure = 3
 

@@ -11,9 +11,12 @@ state={
 	}
 
 	history={
-		owner = GOL
+		owner = CAU
 		victory_points = {
 			3720 1 
+		}
+		victory_points = {
+			719 3
 		}
 		victory_points = {
 			3734 5
@@ -26,7 +29,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = GOL
+		add_core_of = CAU
 	}
 
 	provinces={

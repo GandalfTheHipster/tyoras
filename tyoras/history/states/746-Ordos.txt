@@ -9,25 +9,13 @@ state={
 	
 	history=
 	{
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = CHI
-		add_core_of = CHI
+		owner = CNA
+		add_core_of = CNA
 		
 		buildings = {
 			infrastructure = 2
 		}
-
-		1938.10.25 = {
-			controller = CHI
-		}
 		
-		1939.1.1 = {
-			
-			owner = CHI
-			controller = CHI
-
-		}
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000

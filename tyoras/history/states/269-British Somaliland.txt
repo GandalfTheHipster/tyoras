@@ -7,10 +7,17 @@ state=
 	state_category = enclave
 	
 	history= {
-		owner = SAU
+		victory_points = { 
+			10833 1
+		}
+		victory_points = { 
+			5068 1
+		}
+		owner = SLA
+		add_core_of = SLA
 		buildings = {
 			infrastructure = 3
-			12759 = {
+			10833 = {
 				naval_base = 1
 			}
 		}

@@ -6,7 +6,11 @@ state={
 	state_category = town
 
 	history={
-		owner = VEN
+		add_core_of = JAM
+		owner = EGD
+		victory_points = {
+			12304 1 
+		}
 		buildings = {
 			infrastructure = 4
 			12304 = {

@@ -7,7 +7,7 @@ state=
 	
 	history=
 	{
-		owner = CHI
+		owner = EGD
 		buildings = {
 			infrastructure = 1
 			1280 = {

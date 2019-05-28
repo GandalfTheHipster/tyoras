@@ -4,26 +4,25 @@ state={
 	name="STATE_423" # Madurai
 	manpower = 29147500
 	
-	state_category = large_city
+	state_category = rural
 	
 	resources={
-		rubber=28
+		rubber=19 # was: 28
 	}
 
 	history={
-		owner = IND
+		owner = EKA
 		buildings = {
-			infrastructure = 9
-			industrial_complex = 4
+			infrastructure = 5
+			industrial_complex = 1
 			air_base = 1
 			10278 = {
 				naval_base = 4
 			}
 		}
 		victory_points = {
-			10278 25
+			10278 1 
 		}
-		add_core_of = IND
 
 	}
 

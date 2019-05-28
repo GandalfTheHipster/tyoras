@@ -6,7 +6,8 @@ state={
 	state_category = small_island
 
 	history={
-		owner = CHI
+		owner = CNA
+		add_core_of = CNA
 		buildings = {
 			infrastructure = 3
 			air_base = 3

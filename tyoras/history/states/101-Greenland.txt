@@ -8,14 +8,14 @@ state=
 	
 	history=
 	{
-		owner = FOU
+		owner = EGD
 		buildings = {
 			infrastructure = 1
 			12512 ={
 				naval_base = 1
 			}
 		}
-		add_core_of = FOU
+		add_core_of = EGD
 	}
 	provinces=
 	{

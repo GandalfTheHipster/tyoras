@@ -7,7 +7,7 @@ state={
 	state_category = large_town
 
 	history={
-		owner = AND
+		owner = ALA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -18,7 +18,7 @@ state={
 		victory_points = {
 			11825 3 
 		}
-		add_core_of = AND
+		add_core_of = ALA
 	}
 
 	provinces={

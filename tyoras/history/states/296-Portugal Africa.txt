@@ -9,7 +9,11 @@ state={
 		rubber=1 # was: 1
 	}
 	history={
-		owner = LIB
+		owner = SHL
+		add_core_of = SHL
+		victory_points = {
+			12891 1
+		}
 		buildings = {
 			infrastructure = 2
 			12891 ={

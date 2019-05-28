@@ -8,8 +8,8 @@ state=
 	
 	history=
 	{
-		owner = SWE
-		add_core_of = SWE
+		owner = SWN
+		add_core_of = SWN
 		buildings = {
 			infrastructure = 6
 			408 = {

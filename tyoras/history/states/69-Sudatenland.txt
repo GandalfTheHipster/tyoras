@@ -11,7 +11,16 @@ state=
 	}
 	
 	history={
-		owner = ALE
+		victory_points = {
+			3585 3
+		}
+		#victory_points = {
+		#	11432 1
+		#}
+		victory_points = {
+			11401 3
+		}
+		owner = ORT
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 2
@@ -46,12 +55,7 @@ state=
 			}
 
 		}
-		add_core_of = ALE
-
-		1938.9.30 = {
-			owner = ALE
-			controller = ALE
-		}
+		add_core_of = ORT
 	}
 	provinces=
 	{

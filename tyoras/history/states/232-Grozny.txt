@@ -11,14 +11,14 @@ state={
 	}
 
 	history={
-		owner = GOL
+		owner = CAU
 		buildings = {
 			infrastructure = 4
 		}
 		victory_points = {
 			3672 5 
 		}
-		add_core_of = GOL
+		add_core_of = CAU
 	}
 
 	provinces={

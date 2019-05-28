@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = IND
+		owner = EKA
 		victory_points = {
 			8087 1
 		}

@@ -1,23 +1,25 @@
 
 state={
 	id=489
-	name="STATE_489"
+	name="STATE_489" # Zulia
+	manpower = 1576373
+	
+	state_category = town
+	
 	resources={
-		oil=70.000
+		oil=35 # was: 126
 	}
 
 	history={
-		owner = VEN
+		owner = CNA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			1944 = {
 				naval_base = 5
-
 			}
-
 		}
-		add_core_of = VEN
+		add_core_of = CNA
 		victory_points = {
 			1944 1 
 		}
@@ -25,9 +27,6 @@ state={
 	}
 
 	provinces={
-		1944 1997 2052 4526 4892 4942 5000 5056 5088 7968 8024 8080 8113 10767 10823 10855 10912 12772 
+		1944 1997 2052 4526 5088 10855 12772 
 	}
-	manpower=1576373
-	buildings_max_level_factor=1.000
-	state_category=town
 }

@@ -11,12 +11,15 @@ state={
 	}
 
 	history={
-		owner = TYR
+		victory_points = {
+			11598 1
+		}
+		owner = MIN
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		add_core_of = TYR
+		add_core_of = MIN
 	}
 
 	provinces={

@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = FIN
+		owner = GOL
 		buildings = {
 			infrastructure = 1
 			12530 = {
@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		add_core_of = FIN
+		add_core_of = GOL
 	}
 
 	provinces={

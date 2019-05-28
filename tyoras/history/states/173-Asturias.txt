@@ -11,9 +11,15 @@ state={
 	}
 
 	history={
-		owner = AND
+		owner = ALA
 		victory_points = {
-			9979 1 
+			9979 3
+		}
+		victory_points = {
+			747 1
+		}
+		victory_points = {
+			1176 1
 		}
 		buildings = {
 			infrastructure = 6
@@ -26,7 +32,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = AND
+		add_core_of = ALA
 	}
 
 	provinces={

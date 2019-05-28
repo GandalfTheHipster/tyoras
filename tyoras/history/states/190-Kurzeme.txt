@@ -7,7 +7,10 @@ state={
 	state_category = rural
 	
 	history={
-		owner = POL
+		victory_points = {
+			9262 3
+		}
+		owner = GOL
 		buildings = {
 			infrastructure = 5
 			9262 = {
@@ -15,7 +18,7 @@ state={
 			}
 			dockyard = 1
 		}
-		add_core_of = POL
+		add_core_of = GOL
 	}
 
 	provinces={

@@ -9,8 +9,8 @@ state= {
 	state_category = rural
 
 	history= {
-		owner = CHI
-		#add_core_of = CHI
+		owner = JAP
+		#add_core_of = JAP
 		#add_claim_by = GOL # Removed because of too much aggression
 		buildings = {
 			infrastructure = 3

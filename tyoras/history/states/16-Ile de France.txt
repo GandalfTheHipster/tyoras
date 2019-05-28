@@ -8,7 +8,7 @@ state={
 	
 
 	history={
-		owner = AND
+		owner = ALA
 		victory_points = {
 			11506 50 
 		}
@@ -19,7 +19,7 @@ state={
 			anti_air_building = 3
 			air_base = 5
 		}
-		add_core_of = AND
+		add_core_of = ALA
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 4

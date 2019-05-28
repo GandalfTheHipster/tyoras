@@ -6,9 +6,9 @@ state={
 	}
 
 	history={
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = CHI
+		owner = CNA
+		add_core_of = CNA
+		add_core_of = PRC
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -18,7 +18,7 @@ state={
 			7222 1 
 		}
 		1938.10.25 = {
-			controller = CHI
+			controller = JAP
 			buildings = {
 				industrial_complex = 3
 				infrastructure = 6

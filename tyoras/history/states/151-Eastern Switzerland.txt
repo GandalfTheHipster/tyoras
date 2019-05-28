@@ -2,28 +2,28 @@
 state={
 	id=151
 	name="STATE_151"
+	manpower = 1854711
+	
+	
+	state_category = city
+	
 	resources={
-		aluminium=15.000
+		aluminium=15 # was: 24
 	}
 
 	history={
-		owner = SWI
+		owner = BAV
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
-
 		}
 		victory_points = {
 			663 10 
 		}
-		add_core_of = SWI
-
+		add_core_of = BAV
 	}
 
 	provinces={
-		661 663 11601 11623 
+		658 661 663 3641 3660 3662 9600 11601 11623 
 	}
-	manpower=1854711
-	buildings_max_level_factor=1.000
-	state_category=city
 }

@@ -10,10 +10,12 @@ state={
 	state_category = town
 
 	history={
-		owner = TUR
-		
+		owner = KAR
 		victory_points = {
 			11747 10 
+		}
+		victory_points = {
+			3951 1
 		}
 		buildings = {
 			infrastructure = 4
@@ -21,7 +23,7 @@ state={
 			industrial_complex = 2
 			air_base = 3
 		}
-		add_core_of = TUR
+		add_core_of = KAR
 	}
 
 	provinces={

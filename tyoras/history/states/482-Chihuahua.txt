@@ -7,11 +7,18 @@ state={
 	state_category = rural
 
 	history={
-		owner = USA
+		owner = CNA
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = USA
+		add_core_of = CNA
+
+		victory_points = {
+			8097 10
+		}
+		victory_points = {
+			10830 10
+		}
 	}
 
 	provinces={

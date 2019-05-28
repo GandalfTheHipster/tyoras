@@ -7,7 +7,8 @@ state={
 	
 	history=
 	{
-		owner = LIB
+		owner = SHL
+		add_core_of = SHL
 		victory_points = {
 			2038 1 
 		}

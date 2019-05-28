@@ -4,10 +4,10 @@ state={
 	name="STATE_438"
 	manpower = 33491000
 	
-	state_category = city
+	state_category = rural
 
 	history={
-		owner = IND
+		owner = EKA
 		victory_points = {
 			12137 1
 		}
@@ -15,7 +15,6 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 		}
-		add_core_of = IND
 
 	}
 

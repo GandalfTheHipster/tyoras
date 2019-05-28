@@ -8,9 +8,9 @@ state=
 	
 	history=
 	{
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = CHI
+		owner = CNA
+		add_core_of = CNA
+		add_core_of = PRC
 		victory_points = {
 			10000 5 
 		}
@@ -26,7 +26,7 @@ state=
 		}
 
 		1938.10.25 = {
-			controller = CHI
+			controller = JAP
 		}
 	}
 	provinces={

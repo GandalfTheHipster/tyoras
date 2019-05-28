@@ -3,7 +3,8 @@ state={
 	name="STATE_737"
 
 	history={
-		owner = CHI
+		add_core_of = CNA
+		owner = CNA
 		buildings = {
 			infrastructure = 2
 			air_base = 1

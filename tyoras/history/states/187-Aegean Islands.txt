@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = TUR
+		owner = KAR
 		buildings = {
 			infrastructure = 4
 			dockyard = 1
@@ -22,7 +22,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = TUR
+		add_core_of = KAR
 	}
 
 	provinces={

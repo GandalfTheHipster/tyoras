@@ -9,12 +9,12 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = YZU
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = USA
+		add_core_of = YZU
 
 	}
 

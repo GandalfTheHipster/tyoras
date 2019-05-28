@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = OMA
+		add_core_of = RSR
+		owner = RSR
 		victory_points = {
 			1330 5 
 		}

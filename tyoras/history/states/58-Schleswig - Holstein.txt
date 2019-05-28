@@ -10,9 +10,9 @@ state= {
 			6389 10 
 		}
 		victory_points = {
-			9347 15 
+			9347 20
 		}
-		owner = ALE
+		owner = ALM
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -22,7 +22,15 @@ state= {
 				naval_base = 8
 			}
 		}
-		add_core_of = ALE
+		add_core_of = ALM
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				anti_air_building = 5
+				dockyard = 7
+				arms_factory = 4
+			}
+		}
 	}
 
 	provinces= {

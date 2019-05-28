@@ -10,14 +10,14 @@ state={
 	}
 
 	history={
-		owner = GXC
+		owner = GOL
 		victory_points = {
 			11349 1
 		}
 		buildings = {
 			infrastructure = 5
 		}
-		add_core_of = GXC
+		add_core_of = GOL
 	}
 
 	provinces={

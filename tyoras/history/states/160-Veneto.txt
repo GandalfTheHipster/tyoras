@@ -1,17 +1,15 @@
-
 state={
 	id=160
 	name="STATE_160"
 	resources={
-		steel=20.000
-		aluminium=11.000
+		steel=20 # was: 32.000
+		aluminium=11 # was: 18.000
 	}
+	
+	state_category = large_city
 
 	history={
-		owner = VET
-		victory_points = {
-			6626 1 
-		}
+		owner = MIN
 		victory_points = {
 			11584 10 
 		}
@@ -27,7 +25,15 @@ state={
 			}
 
 		}
-		add_core_of = VET
+		add_core_of = MIN
+		1939.1.1 = {
+			buildings = {
+				dockyard = 2
+				industrial_complex = 5
+
+			}
+
+		}
 
 	}
 
@@ -36,5 +42,4 @@ state={
 	}
 	manpower=3963151
 	buildings_max_level_factor=1.000
-	state_category=large_city
 }

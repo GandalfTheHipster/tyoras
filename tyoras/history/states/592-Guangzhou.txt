@@ -10,10 +10,8 @@ state={
 	}
 
 	history={
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = CHI
-		add_core_of = CHI
+		owner = CNA
+		add_core_of = CNA
 		
 		buildings = {
 			infrastructure = 3
@@ -36,10 +34,10 @@ state={
 				limit = {
 					NOT = { has_dlc = "Waking the Tiger" }
 				}
-				remove_core_of = CHI
-				CHI = { transfer_state = PREV }
+				remove_core_of = GXC
+				CNA = { transfer_state = PREV }
 			}
-			CHI = {
+			JAP = {
 				set_province_controller = 1047
 				set_province_controller = 7152
 				set_province_controller = 11938

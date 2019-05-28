@@ -7,7 +7,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = TUS
+		owner = SWY
 		victory_points = {
 			9907 3 
 		}
@@ -30,7 +30,13 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = TUS
+		add_core_of = SWY
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+				industrial_complex = 2
+			}
+		}
 	}
 
 	provinces={

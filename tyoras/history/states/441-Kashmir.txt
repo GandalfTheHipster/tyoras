@@ -2,19 +2,19 @@
 state={
 	id=441
 	name="STATE_441"
-	manpower = 3539500
+	manpower = 2123700
 	
 	state_category = rural
 
 	history={
-		owner = AFG
+		owner = MHR
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = AFG
+		add_core_of = MHR
 	}
 
 	provinces={
-		1910 2041 5042 7273 7316 8005 10821 10905 12754 12884 
+		5042 7273 7316 8005 10905 12754 12884 
 	}
 }

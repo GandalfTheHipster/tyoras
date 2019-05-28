@@ -6,12 +6,12 @@ state={
 	state_category = rural
 	
 	history={
-		owner = AUS
+		owner = ORT
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		add_core_of = AUS
+		add_core_of = ORT
 	}
 
 	provinces={

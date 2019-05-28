@@ -3,10 +3,8 @@ state={
 	name="STATE_616"
 
 	history={
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = CHI
-		add_core_of = CHI
+		owner = CNA
+		add_core_of = CNA
 		buildings = {
 			infrastructure = 2
 
@@ -19,7 +17,7 @@ state={
 					}
 
 				}
-				CHI = {
+				CNA = {
 					transfer_state = PREV
 
 				}

@@ -6,8 +6,12 @@ state={
 	
 	state_category = rural
 
+	resources={
+		oil=8
+	}
+	
 	history={
-		owner = USA
+		owner = CNA
 		buildings = {
 			infrastructure = 3
 			air_base = 2
@@ -15,7 +19,13 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = USA
+		add_core_of = CNA
+		victory_points = {
+			10889 1
+		}
+		victory_points = {
+			2021 3
+		}
 	}
 
 	provinces={
