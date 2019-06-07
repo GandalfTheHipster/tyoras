@@ -1,0 +1,25 @@
+focus_tree = { 
+id = tyoras
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = JAP 
+} 
+} 
+#Focus for Focus Tree!
+focus = { 
+id = JAP_CAivcyzW
+icon = GFX_goal_tripartite_pact
+x = 0
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

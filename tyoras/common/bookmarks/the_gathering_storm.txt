@@ -1,0 +1,106 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "KAR"
+		default = yes
+		
+		ALA = {
+			history = ALA_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas={
+
+			}
+			focuses = {
+
+			}
+		}
+		YZU = {
+			history = YZU_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		KAR = {
+			history = KAR_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+			
+		}
+		CNA = {
+			history = CNA_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		EKA = {
+			history = EKA_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+
+			}
+			focuses = {
+
+			}			
+		}
+		GOL = {
+			history = GOL_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas={
+
+			}	
+			focuses = {
+
+			}		
+		}
+		JAP = {
+			history = JAP_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+########## Minor Nations #########################################################
+		# Make sure they have focus trees so they show up <3
+
+		"SHL"={
+			minor = yes
+			history = "SHL_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+        }
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
